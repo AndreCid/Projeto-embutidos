@@ -7,7 +7,7 @@ uint16_t Sensores[2];
 uint8_t ADCMUx,PWM,aux;
 double PID, I, K, P, D, Erro, Kp, Kd, Ki, ValorAtual,ErroAntigo;
 double SetPoint1 = -100;//------------ faixa de valores onde o carrinho esta em cima da faixa
-double SetPoint1 = 100;
+double SetPoint2 = 100;
 int MotorEsquerdo,MotorDireito, i = 0;
 
 
