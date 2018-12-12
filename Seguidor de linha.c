@@ -6,7 +6,8 @@
 uint16_t Sensores[2];
 uint8_t ADCMUx,PWM,aux;
 double PID, I, K, P, D, Erro, Kp, Kd, Ki, ValorAtual,ErroAntigo;
-double SetPoint = 129;
+double SetPoint1 = 500;//------------ faixa de valores onde o carrinho esta em cima da faixa
+double SetPoint1 = 600;
 int MotorEsquerdo,MotorDireito, i = 0;
 
 
@@ -55,7 +56,8 @@ void CalculatePID()
 {
     //------------------------------------------------------ Calculo do PID atraves do erro do sistem em relacao ao setpoint
 	ValorAtual = Sensores[2] + Sensores[1] - Sensores[0];
-	Erro =  SetPoint - ValorAtual;
+	if((ValorAtual>SetPoint2) || (ValorAtual <SetPoint1)){
+	Erro =  500 - ValorAtual;
 	if (Erro<0)
   	{
     	Erro = Erro * (-1);
@@ -68,6 +70,11 @@ void CalculatePID()
   	{
     	aux = 0;
   	}
+	}
+    	else
+    	{
+    	Erro = 0;
+    	}
 	I = I + Erro;
 	D = Erro - ErroAntigo;
 	PID = (Ki*I) + (Kd*D) + (Kp*Erro);
@@ -80,18 +87,18 @@ void ControlMotor()
     //-------------------------------------- Ira desacelerar o motor necessario de acordo com PID calculado
 	if(aux == 1)
 	{
-		MotorEsquerdo = 650;
-		MotorDireito  =(int)(650 - PID);
+		MotorEsquerdo = 100;
+		MotorDireito  =(int)(PID);
 	}
 	else if(aux == 2)
 	{
-		MotorEsquerdo = (int)(650 - PID);
-		MotorDireito  = 650;
+		MotorEsquerdo = (int)(PID);
+		MotorDireito  = 100;
 	}
 	else
 	{
-		MotorEsquerdo = 650;
-		MotorDireito  = 650;
+		MotorEsquerdo = 150;
+		MotorDireito  = 150;
 	}
 	OCR1A = MotorEsquerdo; //-------------- Duty-cycle do motor esquerdo
 	OCR1B = MotorDireito;  //-------------- Duty-cycle do motor direito
@@ -108,9 +115,9 @@ void main()
 	InitADC();	       //--------------------------------- Carrega configuracoes iniciais dos ADC disponiveis
 	InitPWM();//------------------------------------------ Inicializa os timers responsaveis pelo PWM
 	//---------------------------------------------------- Inicializacao de variaveis do PID;
-	Kd = 0; //------------------------------ Ganho derivativo
-	Kp = 2; //------------------------------ Ganho proporcional
-	Ki = 0; //------------------------------ Ganho intergal
+	Kd = 10; //------------------------------ Ganho derivativo
+	Kp = 25; //------------------------------ Ganho proporcional
+	Ki = 7; //------------------------------ Ganho intergal
 	I = 0; //------------------------------- Integrador
 	while(1)
 	{
