@@ -56,6 +56,7 @@ void CalculatePID()
 {
     //------------------------------------------------------ Calculo do PID atraves do erro do sistem em relacao ao setpoint
 	ValorAtual = Sensores[2] + Sensores[1] - Sensores[0];
+	// Caso o carrinho esteja fora da faixa de valores, então sera calculado o erro. Caso contrário sera erro nulo.
 	if((ValorAtual>SetPoint2) || (ValorAtual <SetPoint1)){
 	Erro =  500 - ValorAtual;
 	if (Erro<0)
