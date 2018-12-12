@@ -79,6 +79,10 @@ void CalculatePID()
 	I = I + Erro;
 	D = Erro - ErroAntigo;
 	PID = (Ki*I) + (Kd*D) + (Kp*Erro);
+	if(PID<0)
+	{
+	PID = PID *-1;
+	}
 	ErroAntigo = Erro;
 	return;
 }
