@@ -6,8 +6,8 @@
 uint16_t Sensores[2];
 uint8_t ADCMUx,PWM,aux;
 double PID, I, K, P, D, Erro, Kp, Kd, Ki, ValorAtual,ErroAntigo;
-double SetPoint1 = 500;//------------ faixa de valores onde o carrinho esta em cima da faixa
-double SetPoint1 = 600;
+double SetPoint1 = -100;//------------ faixa de valores onde o carrinho esta em cima da faixa
+double SetPoint1 = 100;
 int MotorEsquerdo,MotorDireito, i = 0;
 
 
@@ -55,10 +55,10 @@ void ReadSensors()
 void CalculatePID()
 {
     //------------------------------------------------------ Calculo do PID atraves do erro do sistem em relacao ao setpoint
-	ValorAtual = Sensores[2] + Sensores[1] - Sensores[0];
+	ValorAtual = Sensores[2] - Sensores[0];
 	// Caso o carrinho esteja fora da faixa de valores, então sera calculado o erro. Caso contrário sera erro nulo.
 	if((ValorAtual>SetPoint2) || (ValorAtual <SetPoint1)){
-	Erro =  500 - ValorAtual;
+	Erro =  0 - ValorAtual;
 	if (Erro<0)
   	{
     	Erro = Erro * (-1);
@@ -117,8 +117,8 @@ void main()
 	InitPWM();//------------------------------------------ Inicializa os timers responsaveis pelo PWM
 	//---------------------------------------------------- Inicializacao de variaveis do PID;
 	Kd = 10; //------------------------------ Ganho derivativo
-	Kp = 25; //------------------------------ Ganho proporcional
-	Ki = 7; //------------------------------ Ganho intergal
+	Kp = 10; //------------------------------ Ganho proporcional
+	Ki = 0.1; //------------------------------ Ganho intergal
 	I = 0; //------------------------------- Integrador
 	while(1)
 	{
