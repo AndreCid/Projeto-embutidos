@@ -62,6 +62,7 @@ void CalculatePID()
 	if (Erro<0)
   	{
     	aux = 1;
+	Erro = Erro * -1;
   	}
   	else if(Erro>0){
     	aux = 2;
