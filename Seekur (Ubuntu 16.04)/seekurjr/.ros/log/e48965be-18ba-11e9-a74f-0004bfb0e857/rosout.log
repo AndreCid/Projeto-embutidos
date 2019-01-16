@@ -1,0 +1,17 @@
+
+
+1547552660.323232045  Node Startup
+1547552816.010178063 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552817.010471626 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547552817.011434281 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552818.011924239 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547552818.012728779 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552819.013251983 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547552819.014150666 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552820.014711027 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547552820.015527021 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552821.015976190 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547552821.016886327 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552822.017500027 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547552822.018104271 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547552862.437842941 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1

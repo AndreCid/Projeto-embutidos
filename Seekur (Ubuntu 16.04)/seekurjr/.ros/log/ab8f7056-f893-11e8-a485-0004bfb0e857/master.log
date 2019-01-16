@@ -1,0 +1,199 @@
+[rosmaster.main][INFO] 2018-12-05 11:42:57,519: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-05 11:42:57,520: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-05 11:42:57,521: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2018-12-05 11:42:57,521: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[xmlrpc][INFO] 2018-12-05 11:42:57,521: Started XML-RPC server [http://onboardpc:11311/]
+[xmlrpc][INFO] 2018-12-05 11:42:57,522: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-05 11:42:57,612: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,615: +PARAM [/roslaunch/uris/host_onboardpc__43465] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,789: +PARAM [/arm/arm_1_joint_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,789: +PARAM [/arm/arm_4_joint_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,789: +PARAM [/arm/joint_group_interpol_position_controller/joints] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,790: +PARAM [/arm/joint_group_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,790: +PARAM [/arm/driver/sync/interval_ms] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,790: +PARAM [/arm/arm_1_joint_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,790: +PARAM [/script_server/arm/default_vel] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,790: +PARAM [/arm/arm_3_joint_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,790: +PARAM [/arm/arm_5_joint_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/script_server/arm/waveleft] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/arm/joint_trajectory_controller/constraints/arm_4_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/arm/joint_trajectory_controller/state_publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/arm/driver/nodes/arm_4_joint/id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/arm/arm_3_joint_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/arm/arm_3_joint_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,791: +PARAM [/arm/joint_trajectory_controller/constraints/arm_6_joint/trajectory] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,792: +PARAM [/arm/robot_state_publisher/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,792: +PARAM [/arm/joint_group_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,792: +PARAM [/arm/arm_6_joint_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,792: +PARAM [/arm/arm_3_joint_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,792: +PARAM [/arm/joint_group_interpol_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,792: +PARAM [/arm/joint_trajectory_controller/constraints/arm_3_joint/trajectory] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,793: +PARAM [/arm/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,793: +PARAM [/script_server/arm/waveright] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,793: +PARAM [/arm/arm_1_joint_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,793: +PARAM [/arm/driver/defaults/eds_pkg] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,793: +PARAM [/arm/driver/name] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,793: +PARAM [/script_server/arm/home] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,794: +PARAM [/arm/driver/nodes/arm_2_joint/id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,794: +PARAM [/arm/joint_group_velocity_controller/joints] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,794: +PARAM [/arm/arm_1_joint_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,794: +PARAM [/arm/joint_trajectory_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,794: +PARAM [/arm/arm_6_joint_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,795: +PARAM [/arm/joint_group_interpol_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,795: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,795: +PARAM [/arm/driver/nodes/arm_1_joint/id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,795: +PARAM [/arm/joint_trajectory_controller/constraints/arm_1_joint/trajectory] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,795: +PARAM [/arm/driver/sync/overflow] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,795: +PARAM [/arm/arm_2_joint_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,796: +PARAM [/arm/joint_trajectory_controller/constraints/arm_2_joint/trajectory] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,796: +PARAM [/arm/arm_3_joint_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,796: +PARAM [/arm/robot_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,796: +PARAM [/arm/arm_2_joint_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,796: +PARAM [/arm/joint_trajectory_controller/stop_trajectory_duration] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,796: +PARAM [/arm/joint_group_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/joint_trajectory_controller/constraints/arm_5_joint/trajectory] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/joint_trajectory_controller/constraints/stopped_velocity_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/arm_1_joint_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/joint_trajectory_controller/action_monitor_rate] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/joint_trajectory_controller/joints] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/joint_trajectory_controller/constraints/arm_5_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,797: +PARAM [/arm/driver/defaults/vel_to_device] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,798: +PARAM [/arm/arm_3_joint_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,798: +PARAM [/script_server/arm/joint_names] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,798: +PARAM [/arm/joint_trajectory_controller/constraints/arm_3_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,798: +PARAM [/arm/arm_4_joint_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,798: +PARAM [/arm/driver/nodes/arm_6_joint/id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,798: +PARAM [/arm/arm_4_joint_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,799: +PARAM [/arm/arm_2_joint_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,799: +PARAM [/arm/arm_6_joint_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,799: +PARAM [/arm/driver/defaults/dcf_overlay/604Csub2] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,799: +PARAM [/arm/driver/defaults/dcf_overlay/604Csub1] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,799: +PARAM [/arm/driver/nodes/arm_3_joint/id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,799: +PARAM [/arm/arm_5_joint_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,800: +PARAM [/arm/joint_trajectory_controller/constraints/arm_1_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,800: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,800: +PARAM [/arm/joint_trajectory_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,800: +PARAM [/arm/joint_trajectory_controller/constraints/goal_time] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,800: +PARAM [/arm/arm_1_joint_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/arm/arm_6_joint_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/script_server/arm/wave] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/arm/driver/bus/device] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/arm/joint_trajectory_controller/constraints/arm_6_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/arm/arm_5_joint_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/arm/joint_trajectory_controller/constraints/arm_4_joint/trajectory] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,801: +PARAM [/arm/arm_4_joint_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,802: +PARAM [/script_server/arm/folded] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,802: +PARAM [/arm/arm_4_joint_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,802: +PARAM [/arm/arm_6_joint_position_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,802: +PARAM [/script_server/arm/service_ns] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,802: +PARAM [/script_server/arm/action_name] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,802: +PARAM [/arm/arm_2_joint_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,803: +PARAM [/arm/arm_2_joint_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,803: +PARAM [/arm/arm_4_joint_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,803: +PARAM [/arm/joint_trajectory_controller/constraints/arm_2_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,803: +PARAM [/arm/joint_group_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,803: +PARAM [/arm/arm_2_joint_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,804: +PARAM [/arm/arm_5_joint_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,804: +PARAM [/arm/driver/defaults/eds_file] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,804: +PARAM [/arm/joint_group_position_controller/joints] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,805: +PARAM [/arm/joint_names] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,805: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,806: +PARAM [/arm/arm_5_joint_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,806: +PARAM [/arm/max_command_silence] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,806: +PARAM [/arm/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,807: +PARAM [/arm/driver/nodes/arm_5_joint/id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,807: +PARAM [/arm/arm_6_joint_velocity_controller/required_drive_mode] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,807: +PARAM [/arm/arm_5_joint_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 11:42:57,809: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:33303/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,818: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:33303/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,821: +PUB [/rosout_agg] /rosout http://onboardpc:33303/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,826: +SUB [/rosout] /rosout http://onboardpc:33303/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,940: +PUB [/rosout] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,949: +SERVICE [/arm/robot_state_publisher/get_loggers] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,951: +PUB [/rosout] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,953: +SERVICE [/arm/robot_state_publisher/set_logger_level] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,956: +SERVICE [/arm/driver/get_loggers] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,963: +PUB [/rosout] /arm/cob_control_mode_adapter_node http://onboardpc:33749/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,965: +SERVICE [/arm/driver/set_logger_level] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,970: +SERVICE [/arm/cob_control_mode_adapter_node/get_loggers] /arm/cob_control_mode_adapter_node http://onboardpc:33749/
+[rosmaster.master][INFO] 2018-12-05 11:42:57,986: +SERVICE [/arm/cob_control_mode_adapter_node/set_logger_level] /arm/cob_control_mode_adapter_node http://onboardpc:33749/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,001: +PUB [/tf] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,002: +PUB [/rosout] /arm/joint_states_relay http://onboardpc:44447/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,004: +PUB [/tf_static] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,005: +SERVICE [/arm/joint_states_relay/get_loggers] /arm/joint_states_relay http://onboardpc:44447/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,009: +SERVICE [/arm/joint_states_relay/set_logger_level] /arm/joint_states_relay http://onboardpc:44447/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,035: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/']
+[rosmaster.master][INFO] 2018-12-05 11:42:58,046: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:42:58,046: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/']
+[rosmaster.master][INFO] 2018-12-05 11:42:58,047: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:42:58,047: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/']
+[rosmaster.master][INFO] 2018-12-05 11:42:58,048: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:42:58,049: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']
+[rosmaster.master][INFO] 2018-12-05 11:42:58,050: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:42:58,072: +SUB [/arm/joint_states] /arm/joint_states_relay http://onboardpc:44447/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,087: +SUB [/arm/joint_states] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,106: +PUB [/diagnostics] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,119: +SERVICE [/arm/driver/init] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,120: +SERVICE [/arm/driver/recover] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,121: +SERVICE [/arm/driver/halt] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,123: +SERVICE [/arm/driver/shutdown] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,124: +SERVICE [/arm/driver/get_object] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:42:58,125: +SERVICE [/arm/driver/set_object] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:43:01,944: +PUB [/rosout] /rosservice_4528_1544017381769 http://onboardpc:38685/
+[rosmaster.master][INFO] 2018-12-05 11:43:01,949: +SERVICE [/rosservice_4528_1544017381769/get_loggers] /rosservice_4528_1544017381769 http://onboardpc:38685/
+[rosmaster.master][INFO] 2018-12-05 11:43:01,952: +SERVICE [/rosservice_4528_1544017381769/set_logger_level] /rosservice_4528_1544017381769 http://onboardpc:38685/
+[rosmaster.master][INFO] 2018-12-05 11:43:01,966: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/', 'http://onboardpc:38685/']
+[rosmaster.master][INFO] 2018-12-05 11:43:01,967: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/', 'http://onboardpc:38685/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:11,990: -PUB [/rosout] /rosservice_4528_1544017381769 http://onboardpc:38685/
+[rosmaster.master][INFO] 2018-12-05 11:43:11,990: -SERVICE [/rosservice_4528_1544017381769/set_logger_level] /rosservice_4528_1544017381769 rosrpc://onboardpc:38075
+[rosmaster.master][INFO] 2018-12-05 11:43:11,990: -SERVICE [/rosservice_4528_1544017381769/get_loggers] /rosservice_4528_1544017381769 rosrpc://onboardpc:38075
+[rosmaster.master][INFO] 2018-12-05 11:43:12,064: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']
+[rosmaster.master][INFO] 2018-12-05 11:43:12,067: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:14,830: +PUB [/rosout] /rosservice_5178_1544017394653 http://onboardpc:33319/
+[rosmaster.master][INFO] 2018-12-05 11:43:14,836: +SERVICE [/rosservice_5178_1544017394653/get_loggers] /rosservice_5178_1544017394653 http://onboardpc:33319/
+[rosmaster.master][INFO] 2018-12-05 11:43:14,839: +SERVICE [/rosservice_5178_1544017394653/set_logger_level] /rosservice_5178_1544017394653 http://onboardpc:33319/
+[rosmaster.master][INFO] 2018-12-05 11:43:14,870: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/', 'http://onboardpc:33319/']
+[rosmaster.master][INFO] 2018-12-05 11:43:14,873: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/', 'http://onboardpc:33319/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:24,854: -PUB [/rosout] /rosservice_5178_1544017394653 http://onboardpc:33319/
+[rosmaster.master][INFO] 2018-12-05 11:43:24,854: -SERVICE [/rosservice_5178_1544017394653/get_loggers] /rosservice_5178_1544017394653 rosrpc://onboardpc:39073
+[rosmaster.master][INFO] 2018-12-05 11:43:24,856: -SERVICE [/rosservice_5178_1544017394653/set_logger_level] /rosservice_5178_1544017394653 rosrpc://onboardpc:39073
+[rosmaster.master][INFO] 2018-12-05 11:43:24,889: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']
+[rosmaster.master][INFO] 2018-12-05 11:43:24,890: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:43555/', 'http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:25,903: -PUB [/rosout] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,905: -PUB [/rosout] /arm/joint_states_relay http://onboardpc:44447/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,906: -PUB [/tf] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,910: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']
+[rosmaster.master][INFO] 2018-12-05 11:43:25,912: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:35035/', 'http://onboardpc:33749/', 'http://onboardpc:44447/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:25,912: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:35035/', 'http://onboardpc:33749/']
+[rosmaster.master][INFO] 2018-12-05 11:43:25,917: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:35035/', 'http://onboardpc:33749/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:25,924: -PUB [/tf_static] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,936: -SUB [/arm/joint_states] /arm/joint_states_relay http://onboardpc:44447/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,941: -PUB [/rosout] /arm/cob_control_mode_adapter_node http://onboardpc:33749/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,954: -SUB [/arm/joint_states] /arm/robot_state_publisher http://onboardpc:43555/
+[rosmaster.master][INFO] 2018-12-05 11:43:25,965: -SERVICE [/arm/joint_states_relay/get_loggers] /arm/joint_states_relay rosrpc://onboardpc:39685
+[rosmaster.master][INFO] 2018-12-05 11:43:25,968: -SERVICE [/arm/cob_control_mode_adapter_node/get_loggers] /arm/cob_control_mode_adapter_node rosrpc://onboardpc:51793
+[rosmaster.master][INFO] 2018-12-05 11:43:25,970: -SERVICE [/arm/robot_state_publisher/get_loggers] /arm/robot_state_publisher rosrpc://onboardpc:41459
+[rosmaster.master][INFO] 2018-12-05 11:43:25,972: -SERVICE [/arm/joint_states_relay/set_logger_level] /arm/joint_states_relay rosrpc://onboardpc:39685
+[rosmaster.master][INFO] 2018-12-05 11:43:25,975: -SERVICE [/arm/cob_control_mode_adapter_node/set_logger_level] /arm/cob_control_mode_adapter_node rosrpc://onboardpc:51793
+[rosmaster.master][INFO] 2018-12-05 11:43:25,981: -SERVICE [/arm/robot_state_publisher/set_logger_level] /arm/robot_state_publisher rosrpc://onboardpc:41459
+[rosmaster.master][INFO] 2018-12-05 11:43:25,992: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:35035/']
+[rosmaster.master][INFO] 2018-12-05 11:43:25,993: publisherUpdate[/rosout] -> http://onboardpc:33303/ ['http://onboardpc:35035/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:26,003: -PUB [/rosout] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:43:26,004: -PUB [/diagnostics] /arm/driver http://onboardpc:35035/
+[rosmaster.master][INFO] 2018-12-05 11:43:26,005: -SERVICE [/arm/driver/get_loggers] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,006: -SERVICE [/arm/driver/set_logger_level] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,008: -SERVICE [/arm/driver/init] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,009: -SERVICE [/arm/driver/recover] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,011: -SERVICE [/arm/driver/halt] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,014: -SERVICE [/arm/driver/shutdown] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,016: -SERVICE [/arm/driver/get_object] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,019: -SERVICE [/arm/driver/set_object] /arm/driver rosrpc://onboardpc:52401
+[rosmaster.master][INFO] 2018-12-05 11:43:26,020: publisherUpdate[/rosout] -> http://onboardpc:33303/ []
+[rosmaster.master][INFO] 2018-12-05 11:43:26,021: publisherUpdate[/rosout] -> http://onboardpc:33303/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 11:43:41,144: -PUB [/rosout_agg] /rosout http://onboardpc:33303/
+[rosmaster.master][INFO] 2018-12-05 11:43:41,145: -SUB [/rosout] /rosout http://onboardpc:33303/
+[rosmaster.master][INFO] 2018-12-05 11:43:41,146: -SERVICE [/rosout/get_loggers] /rosout rosrpc://onboardpc:56997
+[rosmaster.master][INFO] 2018-12-05 11:43:41,147: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://onboardpc:56997
+[rosmaster.main][INFO] 2018-12-05 11:43:41,199: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-12-05 11:43:41,199: stopping master...
+[rospy.core][INFO] 2018-12-05 11:43:41,200: signal_shutdown [atexit]

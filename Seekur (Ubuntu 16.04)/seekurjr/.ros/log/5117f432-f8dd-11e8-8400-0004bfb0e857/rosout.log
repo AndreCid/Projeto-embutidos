@@ -1,0 +1,19 @@
+
+
+1544049008.270441786  Node Startup
+1544049008.093073797 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:83(main) [topics: /rosout, /scan] Connected to laser.
+1544049061.642644401 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049062.642846405 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1544049062.643521055 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049063.643782563 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1544049063.644386255 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049064.644709780 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1544049064.645282185 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049065.645642585 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1544049065.646392940 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049073.135826023 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049081.965878042 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:83(main) [topics: /rosout, /scan] Connected to laser.
+1544049170.545028597 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049171.545351567 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1544049171.547651800 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1544049184.034271379 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1

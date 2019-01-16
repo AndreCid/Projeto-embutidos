@@ -1,0 +1,15 @@
+(cl:defpackage schunk_sdh-msg
+  (:use )
+  (:export
+   "<PRESSUREARRAY>"
+   "PRESSUREARRAY"
+   "<PRESSUREARRAYLIST>"
+   "PRESSUREARRAYLIST"
+   "<TACTILEMATRIX>"
+   "TACTILEMATRIX"
+   "<TACTILESENSOR>"
+   "TACTILESENSOR"
+   "<TEMPERATUREARRAY>"
+   "TEMPERATUREARRAY"
+  ))
+

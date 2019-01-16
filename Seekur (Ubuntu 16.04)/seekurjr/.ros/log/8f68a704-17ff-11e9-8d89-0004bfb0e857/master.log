@@ -1,0 +1,143 @@
+[rosmaster.main][INFO] 2019-01-14 11:23:21,281: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-01-14 11:23:21,281: Starting ROS Master Node
+[xmlrpc][INFO] 2019-01-14 11:23:21,282: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2019-01-14 11:23:21,282: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[xmlrpc][INFO] 2019-01-14 11:23:21,282: Started XML-RPC server [http://onboardpc:11311/]
+[xmlrpc][INFO] 2019-01-14 11:23:21,283: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-01-14 11:23:21,374: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 11:23:21,376: +PARAM [/roslaunch/uris/host_onboardpc__33249] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 11:23:21,537: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 11:23:21,537: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 11:23:21,546: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:32855/
+[rosmaster.master][INFO] 2019-01-14 11:23:21,547: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:32855/
+[rosmaster.master][INFO] 2019-01-14 11:23:21,549: +PUB [/rosout_agg] /rosout http://onboardpc:32855/
+[rosmaster.master][INFO] 2019-01-14 11:23:21,556: +SUB [/rosout] /rosout http://onboardpc:32855/
+[rosmaster.master][INFO] 2019-01-14 11:23:25,780: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:23:25,783: +PUB [/rosout] /lms1xx http://onboardpc:33095/
+[rosmaster.master][INFO] 2019-01-14 11:23:25,784: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:33095/
+[rosmaster.master][INFO] 2019-01-14 11:23:25,785: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:33095/
+[rosmaster.master][INFO] 2019-01-14 11:23:25,787: +PUB [/scan] /lms1xx http://onboardpc:33095/
+[rosmaster.master][INFO] 2019-01-14 11:23:25,793: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:33095/']
+[rosmaster.master][INFO] 2019-01-14 11:23:25,795: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:33095/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:23:28,205: -PUB [/rosout] /lms1xx http://onboardpc:33095/
+[rosmaster.master][INFO] 2019-01-14 11:23:28,209: -PUB [/scan] /lms1xx http://onboardpc:33095/
+[rosmaster.master][INFO] 2019-01-14 11:23:28,210: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:45777
+[rosmaster.master][INFO] 2019-01-14 11:23:28,211: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:45777
+[rosmaster.master][INFO] 2019-01-14 11:23:28,298: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:23:28,300: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:23:35,879: +PUB [/rosout] /lms1xx http://onboardpc:38577/
+[rosmaster.master][INFO] 2019-01-14 11:23:35,880: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:38577/
+[rosmaster.master][INFO] 2019-01-14 11:23:35,881: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:38577/
+[rosmaster.master][INFO] 2019-01-14 11:23:35,883: +PUB [/scan] /lms1xx http://onboardpc:38577/
+[rosmaster.master][INFO] 2019-01-14 11:23:35,918: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:38577/']
+[rosmaster.master][INFO] 2019-01-14 11:23:35,920: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:38577/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:23:38,931: -PUB [/rosout] /lms1xx http://onboardpc:38577/
+[rosmaster.master][INFO] 2019-01-14 11:23:38,934: -PUB [/scan] /lms1xx http://onboardpc:38577/
+[rosmaster.master][INFO] 2019-01-14 11:23:38,936: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:33205
+[rosmaster.master][INFO] 2019-01-14 11:23:38,937: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:33205
+[rosmaster.master][INFO] 2019-01-14 11:23:39,025: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:23:39,027: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:23:50,564: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:23:50,567: +PUB [/rosout] /lms1xx http://onboardpc:36079/
+[rosmaster.master][INFO] 2019-01-14 11:23:50,568: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:36079/
+[rosmaster.master][INFO] 2019-01-14 11:23:50,569: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:36079/
+[rosmaster.master][INFO] 2019-01-14 11:23:50,571: +PUB [/scan] /lms1xx http://onboardpc:36079/
+[rosmaster.master][INFO] 2019-01-14 11:23:50,650: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:36079/']
+[rosmaster.master][INFO] 2019-01-14 11:23:50,652: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:36079/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:23:56,666: -PUB [/rosout] /lms1xx http://onboardpc:36079/
+[rosmaster.master][INFO] 2019-01-14 11:23:56,669: -PUB [/scan] /lms1xx http://onboardpc:36079/
+[rosmaster.master][INFO] 2019-01-14 11:23:56,672: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:48571
+[rosmaster.master][INFO] 2019-01-14 11:23:56,673: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:48571
+[rosmaster.master][INFO] 2019-01-14 11:23:56,764: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:23:56,766: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:01,008: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:24:01,011: +PUB [/rosout] /lms1xx http://onboardpc:41651/
+[rosmaster.master][INFO] 2019-01-14 11:24:01,012: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:41651/
+[rosmaster.master][INFO] 2019-01-14 11:24:01,013: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:41651/
+[rosmaster.master][INFO] 2019-01-14 11:24:01,015: +PUB [/scan] /lms1xx http://onboardpc:41651/
+[rosmaster.master][INFO] 2019-01-14 11:24:01,074: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:41651/']
+[rosmaster.master][INFO] 2019-01-14 11:24:01,077: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:41651/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:02,783: -PUB [/rosout] /lms1xx http://onboardpc:41651/
+[rosmaster.master][INFO] 2019-01-14 11:24:02,786: -PUB [/scan] /lms1xx http://onboardpc:41651/
+[rosmaster.master][INFO] 2019-01-14 11:24:02,788: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:59439
+[rosmaster.master][INFO] 2019-01-14 11:24:02,789: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:59439
+[rosmaster.master][INFO] 2019-01-14 11:24:02,877: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:24:02,879: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:05,997: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:24:06,001: +PUB [/rosout] /lms1xx http://onboardpc:43767/
+[rosmaster.master][INFO] 2019-01-14 11:24:06,002: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:43767/
+[rosmaster.master][INFO] 2019-01-14 11:24:06,003: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:43767/
+[rosmaster.master][INFO] 2019-01-14 11:24:06,005: +PUB [/scan] /lms1xx http://onboardpc:43767/
+[rosmaster.master][INFO] 2019-01-14 11:24:06,085: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:43767/']
+[rosmaster.master][INFO] 2019-01-14 11:24:06,088: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:43767/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:07,294: -PUB [/rosout] /lms1xx http://onboardpc:43767/
+[rosmaster.master][INFO] 2019-01-14 11:24:07,297: -PUB [/scan] /lms1xx http://onboardpc:43767/
+[rosmaster.master][INFO] 2019-01-14 11:24:07,299: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:40659
+[rosmaster.master][INFO] 2019-01-14 11:24:07,300: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:40659
+[rosmaster.master][INFO] 2019-01-14 11:24:07,389: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:24:07,391: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:11,090: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:24:11,093: +PUB [/rosout] /lms1xx http://onboardpc:37221/
+[rosmaster.master][INFO] 2019-01-14 11:24:11,094: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:37221/
+[rosmaster.master][INFO] 2019-01-14 11:24:11,095: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:37221/
+[rosmaster.master][INFO] 2019-01-14 11:24:11,097: +PUB [/scan] /lms1xx http://onboardpc:37221/
+[rosmaster.master][INFO] 2019-01-14 11:24:11,098: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:37221/']
+[rosmaster.master][INFO] 2019-01-14 11:24:11,099: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:37221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:12,506: -PUB [/rosout] /lms1xx http://onboardpc:37221/
+[rosmaster.master][INFO] 2019-01-14 11:24:12,509: -PUB [/scan] /lms1xx http://onboardpc:37221/
+[rosmaster.master][INFO] 2019-01-14 11:24:12,511: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:37253
+[rosmaster.master][INFO] 2019-01-14 11:24:12,513: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:37253
+[rosmaster.master][INFO] 2019-01-14 11:24:12,601: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:24:12,604: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:16,953: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:24:16,956: +PUB [/rosout] /lms1xx http://onboardpc:41985/
+[rosmaster.master][INFO] 2019-01-14 11:24:16,957: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:41985/
+[rosmaster.master][INFO] 2019-01-14 11:24:16,958: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:41985/
+[rosmaster.master][INFO] 2019-01-14 11:24:16,959: +PUB [/scan] /lms1xx http://onboardpc:41985/
+[rosmaster.master][INFO] 2019-01-14 11:24:17,012: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:41985/']
+[rosmaster.master][INFO] 2019-01-14 11:24:17,014: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:41985/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:22,727: -PUB [/rosout] /lms1xx http://onboardpc:41985/
+[rosmaster.master][INFO] 2019-01-14 11:24:22,730: -PUB [/scan] /lms1xx http://onboardpc:41985/
+[rosmaster.master][INFO] 2019-01-14 11:24:22,732: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:37101
+[rosmaster.master][INFO] 2019-01-14 11:24:22,735: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:37101
+[rosmaster.master][INFO] 2019-01-14 11:24:22,822: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:24:22,824: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:30,393: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:24:30,395: +PUB [/rosout] /lms1xx http://onboardpc:35495/
+[rosmaster.master][INFO] 2019-01-14 11:24:30,397: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:35495/
+[rosmaster.master][INFO] 2019-01-14 11:24:30,397: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:35495/
+[rosmaster.master][INFO] 2019-01-14 11:24:30,399: +PUB [/scan] /lms1xx http://onboardpc:35495/
+[rosmaster.master][INFO] 2019-01-14 11:24:30,438: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:35495/']
+[rosmaster.master][INFO] 2019-01-14 11:24:30,439: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:35495/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:24:35,251: -PUB [/rosout] /lms1xx http://onboardpc:35495/
+[rosmaster.master][INFO] 2019-01-14 11:24:35,254: -PUB [/scan] /lms1xx http://onboardpc:35495/
+[rosmaster.master][INFO] 2019-01-14 11:24:35,257: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:34027
+[rosmaster.master][INFO] 2019-01-14 11:24:35,258: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:34027
+[rosmaster.master][INFO] 2019-01-14 11:24:35,348: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:24:35,351: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:25:22,796: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:25:22,799: +PUB [/rosout] /lms1xx http://onboardpc:32967/
+[rosmaster.master][INFO] 2019-01-14 11:25:22,800: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:32967/
+[rosmaster.master][INFO] 2019-01-14 11:25:22,801: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:32967/
+[rosmaster.master][INFO] 2019-01-14 11:25:22,803: +PUB [/scan] /lms1xx http://onboardpc:32967/
+[rosmaster.master][INFO] 2019-01-14 11:25:22,847: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:32967/']
+[rosmaster.master][INFO] 2019-01-14 11:25:22,850: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:32967/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:25:28,062: -PUB [/rosout] /lms1xx http://onboardpc:32967/
+[rosmaster.master][INFO] 2019-01-14 11:25:28,065: -PUB [/scan] /lms1xx http://onboardpc:32967/
+[rosmaster.master][INFO] 2019-01-14 11:25:28,068: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:52769
+[rosmaster.master][INFO] 2019-01-14 11:25:28,070: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:52769
+[rosmaster.master][INFO] 2019-01-14 11:25:28,077: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:25:28,078: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:28:00,806: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 11:28:00,809: +PUB [/rosout] /lms1xx http://onboardpc:44467/
+[rosmaster.master][INFO] 2019-01-14 11:28:00,810: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:44467/
+[rosmaster.master][INFO] 2019-01-14 11:28:00,811: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:44467/
+[rosmaster.master][INFO] 2019-01-14 11:28:00,813: +PUB [/scan] /lms1xx http://onboardpc:44467/
+[rosmaster.master][INFO] 2019-01-14 11:28:00,813: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:44467/']
+[rosmaster.master][INFO] 2019-01-14 11:28:00,815: publisherUpdate[/rosout] -> http://onboardpc:32855/ ['http://onboardpc:44467/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 11:28:02,623: -PUB [/rosout] /lms1xx http://onboardpc:44467/
+[rosmaster.master][INFO] 2019-01-14 11:28:02,626: -PUB [/scan] /lms1xx http://onboardpc:44467/
+[rosmaster.master][INFO] 2019-01-14 11:28:02,628: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:36017
+[rosmaster.master][INFO] 2019-01-14 11:28:02,629: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:36017
+[rosmaster.master][INFO] 2019-01-14 11:28:02,677: publisherUpdate[/rosout] -> http://onboardpc:32855/ []
+[rosmaster.master][INFO] 2019-01-14 11:28:02,679: publisherUpdate[/rosout] -> http://onboardpc:32855/ []: sec=0.00, result=[1, '', 0]

@@ -1,0 +1,142 @@
+[rosmaster.main][INFO] 2018-12-05 20:38:42,541: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-05 20:38:42,541: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-05 20:38:42,542: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-12-05 20:38:42,543: Started XML-RPC server [http://onboardpc:11311/]
+[xmlrpc][INFO] 2018-12-05 20:38:42,543: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-05 20:38:42,543: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[rosmaster.master][INFO] 2018-12-05 20:38:42,614: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:38:42,620: +PARAM [/roslaunch/uris/host_onboardpc__38457] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:38:42,792: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:38:42,793: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:38:42,800: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:45333/
+[rosmaster.master][INFO] 2018-12-05 20:38:42,801: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:45333/
+[rosmaster.master][INFO] 2018-12-05 20:38:42,806: +PUB [/rosout_agg] /rosout http://onboardpc:45333/
+[rosmaster.master][INFO] 2018-12-05 20:38:42,811: +SUB [/rosout] /rosout http://onboardpc:45333/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,891: +PUB [/rosout] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,892: +SERVICE [/rosarnl_node/get_loggers] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,893: +SERVICE [/rosarnl_node/set_logger_level] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,895: +PUB [/tf] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,898: +PUB [/rosarnl_node/motors_state] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,899: +PUB [/rosarnl_node/amcl_pose] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,900: +SERVICE [/rosarnl_node/enable_motors] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,901: +SERVICE [/rosarnl_node/disable_motors] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,902: +SERVICE [/rosarnl_node/wander] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,903: +SERVICE [/rosarnl_node/stop] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,905: +SERVICE [/rosarnl_node/dock] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,906: +SERVICE [/rosarnl_node/make_plan] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,907: +SERVICE [/rosarnl_node/global_localization] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,908: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:45557/']
+[rosmaster.master][INFO] 2018-12-05 20:39:13,911: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:45557/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 20:39:13,912: +SERVICE [/rosarnl_node/load_map_file] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,918: +SUB [/rosarnl_node/initialpose] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,919: +PUB [/rosarnl_node/arnl_server_mode] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,920: +PUB [/rosarnl_node/arnl_server_status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,921: +PUB [/rosarnl_node/arnl_path_state] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,922: +PUB [/rosarnl_node/bumper_state] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,923: +PUB [/rosarnl_node/battery_status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,933: +SUB [/rosarnl_node/move_base_simple/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,938: +SUB [/rosarnl_node/goalname] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,939: +PUB [/rosarnl_node/current_goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,953: +SUB [/rosarnl_node/jog_position_simple/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,981: +PUB [/rosarnl_node/move_base/result] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,982: +PUB [/rosarnl_node/move_base/feedback] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,983: +PUB [/rosarnl_node/move_base/status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,993: +SUB [/rosarnl_node/move_base/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:13,998: +SUB [/rosarnl_node/move_base/cancel] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,001: +PUB [/rosarnl_node/jog_position/result] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,002: +PUB [/rosarnl_node/jog_position/feedback] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,003: +PUB [/rosarnl_node/jog_position/status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,013: +SUB [/rosarnl_node/jog_position/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,018: +SUB [/rosarnl_node/jog_position/cancel] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,019: +PUB [/rosarnl_node/lms1xx_1_laserscan] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:39:14,020: +PUB [/rosarnl_node/lms1xx_1_pointcloud] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,472: -SERVICE [/rosarnl_node/get_loggers] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,475: -SERVICE [/rosarnl_node/set_logger_level] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,476: -SERVICE [/rosarnl_node/enable_motors] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,478: -SERVICE [/rosarnl_node/disable_motors] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,479: -SERVICE [/rosarnl_node/wander] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,480: -SERVICE [/rosarnl_node/stop] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,482: -SERVICE [/rosarnl_node/dock] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,483: -SERVICE [/rosarnl_node/make_plan] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,484: -SERVICE [/rosarnl_node/global_localization] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,485: -SERVICE [/rosarnl_node/load_map_file] /rosarnl_node rosrpc://onboardpc:43665
+[rosmaster.master][INFO] 2018-12-05 20:42:41,529: -PUB [/rosout] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,532: -PUB [/tf] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,534: -PUB [/rosarnl_node/motors_state] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,536: -PUB [/rosarnl_node/amcl_pose] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,537: -PUB [/rosarnl_node/arnl_server_mode] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,538: -PUB [/rosarnl_node/arnl_server_status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,539: -PUB [/rosarnl_node/arnl_path_state] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,541: -PUB [/rosarnl_node/bumper_state] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,541: -PUB [/rosarnl_node/battery_status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,542: -PUB [/rosarnl_node/current_goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,543: -PUB [/rosarnl_node/move_base/result] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,544: -PUB [/rosarnl_node/move_base/feedback] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,545: -PUB [/rosarnl_node/move_base/status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,546: -PUB [/rosarnl_node/jog_position/result] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,547: -PUB [/rosarnl_node/jog_position/feedback] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,548: -PUB [/rosarnl_node/jog_position/status] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,549: -PUB [/rosarnl_node/lms1xx_1_laserscan] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,550: -PUB [/rosarnl_node/lms1xx_1_pointcloud] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,551: -SUB [/rosarnl_node/initialpose] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,552: -SUB [/rosarnl_node/move_base_simple/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,553: -SUB [/rosarnl_node/goalname] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,554: -SUB [/rosarnl_node/jog_position_simple/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,555: -SUB [/rosarnl_node/move_base/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,556: -SUB [/rosarnl_node/move_base/cancel] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,557: -SUB [/rosarnl_node/jog_position/goal] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,558: -SUB [/rosarnl_node/jog_position/cancel] /rosarnl_node http://onboardpc:45557/
+[rosmaster.master][INFO] 2018-12-05 20:42:41,613: publisherUpdate[/rosout] -> http://onboardpc:45333/ []
+[rosmaster.master][INFO] 2018-12-05 20:42:41,615: publisherUpdate[/rosout] -> http://onboardpc:45333/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 20:47:52,747: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2018-12-05 20:47:52,750: +PUB [/rosout] /lms1xx http://onboardpc:41219/
+[rosmaster.master][INFO] 2018-12-05 20:47:52,751: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:41219/
+[rosmaster.master][INFO] 2018-12-05 20:47:52,752: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:41219/
+[rosmaster.master][INFO] 2018-12-05 20:47:52,755: +PUB [/scan] /lms1xx http://onboardpc:41219/
+[rosmaster.master][INFO] 2018-12-05 20:47:52,783: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:41219/']
+[rosmaster.master][INFO] 2018-12-05 20:47:52,786: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:41219/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 20:49:04,127: -PUB [/rosout] /lms1xx http://onboardpc:41219/
+[rosmaster.master][INFO] 2018-12-05 20:49:04,130: -PUB [/scan] /lms1xx http://onboardpc:41219/
+[rosmaster.master][INFO] 2018-12-05 20:49:04,133: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:60983
+[rosmaster.master][INFO] 2018-12-05 20:49:04,135: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:60983
+[rosmaster.master][INFO] 2018-12-05 20:49:04,139: publisherUpdate[/rosout] -> http://onboardpc:45333/ []
+[rosmaster.master][INFO] 2018-12-05 20:49:04,139: publisherUpdate[/rosout] -> http://onboardpc:45333/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 20:49:08,737: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2018-12-05 20:49:08,740: +PUB [/rosout] /lms1xx http://onboardpc:38543/
+[rosmaster.master][INFO] 2018-12-05 20:49:08,742: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:38543/
+[rosmaster.master][INFO] 2018-12-05 20:49:08,743: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:38543/
+[rosmaster.master][INFO] 2018-12-05 20:49:08,745: +PUB [/scan] /lms1xx http://onboardpc:38543/
+[rosmaster.master][INFO] 2018-12-05 20:49:08,750: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:38543/']
+[rosmaster.master][INFO] 2018-12-05 20:49:08,751: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:38543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 20:49:14,866: -PUB [/rosout] /lms1xx http://onboardpc:38543/
+[rosmaster.master][INFO] 2018-12-05 20:49:14,867: -PUB [/scan] /lms1xx http://onboardpc:38543/
+[rosmaster.master][INFO] 2018-12-05 20:49:14,869: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:45417
+[rosmaster.master][INFO] 2018-12-05 20:49:14,870: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:45417
+[rosmaster.master][INFO] 2018-12-05 20:49:14,964: publisherUpdate[/rosout] -> http://onboardpc:45333/ []
+[rosmaster.master][INFO] 2018-12-05 20:49:14,966: publisherUpdate[/rosout] -> http://onboardpc:45333/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 21:38:03,954: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2018-12-05 21:38:03,958: +PUB [/rosout] /lms1xx http://onboardpc:36475/
+[rosmaster.master][INFO] 2018-12-05 21:38:03,959: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:36475/
+[rosmaster.master][INFO] 2018-12-05 21:38:03,960: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:36475/
+[rosmaster.master][INFO] 2018-12-05 21:38:03,962: +PUB [/scan] /lms1xx http://onboardpc:36475/
+[rosmaster.master][INFO] 2018-12-05 21:38:04,020: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:36475/']
+[rosmaster.master][INFO] 2018-12-05 21:38:04,023: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:36475/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 21:38:07,231: -PUB [/rosout] /lms1xx http://onboardpc:36475/
+[rosmaster.master][INFO] 2018-12-05 21:38:07,234: -PUB [/scan] /lms1xx http://onboardpc:36475/
+[rosmaster.master][INFO] 2018-12-05 21:38:07,235: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:36867
+[rosmaster.master][INFO] 2018-12-05 21:38:07,235: publisherUpdate[/rosout] -> http://onboardpc:45333/ []
+[rosmaster.master][INFO] 2018-12-05 21:38:07,236: publisherUpdate[/rosout] -> http://onboardpc:45333/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 21:38:07,238: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:36867
+[rosmaster.master][INFO] 2018-12-05 21:40:22,977: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2018-12-05 21:40:22,980: +PUB [/rosout] /lms1xx http://onboardpc:46357/
+[rosmaster.master][INFO] 2018-12-05 21:40:22,981: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:46357/
+[rosmaster.master][INFO] 2018-12-05 21:40:22,982: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:46357/
+[rosmaster.master][INFO] 2018-12-05 21:40:22,984: +PUB [/scan] /lms1xx http://onboardpc:46357/
+[rosmaster.master][INFO] 2018-12-05 21:40:23,010: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:46357/']
+[rosmaster.master][INFO] 2018-12-05 21:40:23,012: publisherUpdate[/rosout] -> http://onboardpc:45333/ ['http://onboardpc:46357/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 21:40:27,323: -PUB [/rosout] /lms1xx http://onboardpc:46357/
+[rosmaster.master][INFO] 2018-12-05 21:40:27,326: -PUB [/scan] /lms1xx http://onboardpc:46357/
+[rosmaster.master][INFO] 2018-12-05 21:40:27,328: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:40775
+[rosmaster.master][INFO] 2018-12-05 21:40:27,329: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:40775
+[rosmaster.master][INFO] 2018-12-05 21:40:27,341: publisherUpdate[/rosout] -> http://onboardpc:45333/ []
+[rosmaster.master][INFO] 2018-12-05 21:40:27,342: publisherUpdate[/rosout] -> http://onboardpc:45333/ []: sec=0.00, result=[1, '', 0]

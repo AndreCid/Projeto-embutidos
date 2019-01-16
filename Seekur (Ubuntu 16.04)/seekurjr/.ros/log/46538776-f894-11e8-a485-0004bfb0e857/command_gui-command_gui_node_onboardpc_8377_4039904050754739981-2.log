@@ -1,0 +1,111 @@
+[rospy.client][INFO] 2018-12-05 11:50:02,116: init_node, name[/command_gui/command_gui_node_onboardpc_8377_4039904050754739981], pid[8395]
+[xmlrpc][INFO] 2018-12-05 11:50:02,116: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 11:50:02,117: Started XML-RPC server [http://onboardpc:33799/]
+[rospy.init][INFO] 2018-12-05 11:50:02,117: ROS Slave URI: [http://onboardpc:33799/]
+[rospy.impl.masterslave][INFO] 2018-12-05 11:50:02,117: _ready: http://onboardpc:33799/
+[xmlrpc][INFO] 2018-12-05 11:50:02,119: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-05 11:50:02,120: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-05 11:50:02,218: registered with master
+[rospy.rosout][INFO] 2018-12-05 11:50:02,218: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-05 11:50:02,223: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-05 11:50:02,226: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-05 11:50:02,497: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-12-05 11:50:07,026: <<init>> <<arm>>
+[rosout][INFO] 2018-12-05 11:50:10,528: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-05 11:50:10,558: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:50:10,582: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 11:50:10,583: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rospy.internal][WARNING] 2018-12-05 11:50:10,585: Unknown error initiating TCP/IP socket to onboardpc:44045 (http://onboardpc:33145/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2018-12-05 11:50:10,624: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/result] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:50:10,632: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/feedback] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:50:10,636: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/status] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:50:10,737: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/goal] adding connection to [/arm/driver], count 0
+[rospy.internal][INFO] 2018-12-05 11:50:10,840: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/cancel] adding connection to [/arm/driver], count 0
+[rosout][INFO] 2018-12-05 11:50:14,497: Move <<arm>> to <<folded>>
+[rospy.internal][INFO] 2018-12-05 11:50:14,549: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:50:14,560: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 11:50:14,561: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 11:50:31,218: <<init>> <<arm>>
+[rosout][INFO] 2018-12-05 11:50:36,065: <<recover>> <<arm>>
+[rosout][INFO] 2018-12-05 11:51:17,050: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-05 11:51:17,094: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:51:17,119: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 11:51:17,119: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 11:51:44,704: <<halt>> <<arm>>
+[rosout][INFO] 2018-12-05 11:51:47,900: <<init>> <<arm>>
+[rosout][INFO] 2018-12-05 11:51:52,012: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-05 11:51:52,084: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:51:52,099: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 11:51:52,100: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 11:51:56,181: Move <<arm>> to <<folded>>
+[rospy.internal][INFO] 2018-12-05 11:51:56,253: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:51:56,276: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 11:51:56,276: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 11:52:07,036: <<recover>> <<arm>>
+[rosout][INFO] 2018-12-05 11:52:11,385: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-05 11:52:11,431: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 11:52:11,454: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 11:52:11,455: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 15:49:04,588: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-05 15:49:04,619: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 15:49:04,634: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 15:49:04,635: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 15:49:11,635: Move <<arm>> to <<folded>>
+[rospy.internal][INFO] 2018-12-05 15:49:11,658: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 15:49:11,674: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 15:49:11,674: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 16:00:59,709: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-05 16:00:59,783: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 16:00:59,818: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 16:00:59,818: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 16:01:11,824: Move <<arm>> to <<waveright>>
+[rospy.internal][INFO] 2018-12-05 16:01:11,856: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 16:01:11,874: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 16:01:11,874: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rosout][INFO] 2018-12-05 16:01:17,844: Move <<arm>> to <<waveleft>>
+[rospy.internal][INFO] 2018-12-05 16:01:17,896: topic[/arm/joint_states] adding connection to [http://onboardpc:33145/], count 0
+[rospy.internal][INFO] 2018-12-05 16:01:17,912: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-05 16:01:17,912: topic[/arm/joint_states] removing connection to http://onboardpc:33145/
+[rospy.internal][INFO] 2018-12-05 16:03:02,466: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/cancel] removing connection to /arm/driver
+[rospy.internal][INFO] 2018-12-05 16:03:02,467: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/goal] removing connection to /arm/driver
+[rospy.internal][WARNING] 2018-12-05 16:03:02,509: Unknown error initiating TCP/IP socket to onboardpc:44045 (http://onboardpc:33145/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][WARNING] 2018-12-05 16:03:02,510: Unknown error initiating TCP/IP socket to onboardpc:44045 (http://onboardpc:33145/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2018-12-05 16:03:02,510: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/feedback] removing connection to http://onboardpc:33145/
+[rospy.internal][INFO] 2018-12-05 16:03:02,510: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/result] removing connection to http://onboardpc:33145/
+[rospy.internal][WARNING] 2018-12-05 16:03:02,511: Unknown error initiating TCP/IP socket to onboardpc:44045 (http://onboardpc:33145/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2018-12-05 16:03:02,511: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/status] removing connection to http://onboardpc:33145/
+[rospy.internal][INFO] 2018-12-05 16:03:03,468: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2018-12-05 16:03:05,113: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2018-12-05 16:03:05,114: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2018-12-05 16:03:05,114: signal-2
+[rospy.core][INFO] 2018-12-05 16:03:05,248: signal_shutdown [atexit]

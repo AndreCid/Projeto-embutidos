@@ -1,0 +1,166 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Tue Jan 15 09:40:53 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5901
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/seekurjr/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1304]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+
+(xfce4-session:1291): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+gpg-agent[1305]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:1291): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/seekurjr/.cache/sessions/xfce4-session-onboardpc:1, Does it exist? Permissions issue?
+
+(xfwm4:1308): xfwm4-WARNING **: The display does not support the XRender extension.
+
+(xfwm4:1308): xfwm4-WARNING **: The display does not support the XComposite extension.
+
+(xfwm4:1308): xfwm4-WARNING **: The display does not support the XDamage extension.
+
+(xfwm4:1308): xfwm4-WARNING **: The display does not support the XFixes extension.
+
+(xfwm4:1308): xfwm4-WARNING **: Compositing manager disabled.
+
+(xfsettingsd:1319): xfsettingsd-CRITICAL **: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+
+(xfsettingsd:1319): xfsettingsd-CRITICAL **: XI is not present.
+
+(xfsettingsd:1319): xfsettingsd-CRITICAL **: Failed to initialize the Xkb extension.
+
+(xfsettingsd:1319): xfsettingsd-CRITICAL **: Failed to initialize the Accessibility extension.
+
+** (xfce4-volumed:1346): WARNING **: Binding 'XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Alt>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Shift>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Shift>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Alt>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Alt><Shift>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Shift><Alt>XF86AudioRaiseVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding 'XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Alt>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Shift>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Shift>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Alt>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Alt><Shift>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Shift><Alt>XF86AudioLowerVolume' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding 'XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Alt>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Shift>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Shift>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Alt>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Alt><Shift>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Binding '<Ctrl><Shift><Alt>XF86AudioMute' failed!
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+** (xfce4-volumed:1346): WARNING **: Failed to map virtual modifiers
+
+(polkit-gnome-authentication-agent-1:1318): polkit-gnome-1-WARNING **: Unable to determine the session we are in: No session for pid 1318
+
+(xfsettingsd:1319): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+process 1330: arguments to dbus_message_new_method_call() were incorrect, assertion "path != NULL" failed in file ../../dbus/dbus-message.c line 1340.
+This is normally a bug in some application using the D-Bus library.
+
+(xfwm4:1308): xfwm4-WARNING **: Cannot find visual format on screen 0
+Failure: Module initialization failed
+
+** (wrapper-1.0:1445): WARNING **: XRANDR version < 1.2
+
+(wrapper-1.0:1443): Gdk-WARNING **: /build/gtk+2.0-jJZIsQ/gtk+2.0-2.24.30/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(nm-applet:1337): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Error executing command as another user: Not authorized
+
+This incident has been reported.

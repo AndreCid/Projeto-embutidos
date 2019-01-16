@@ -1,0 +1,2 @@
+set(schunk_sdh_MESSAGE_FILES "/home/seekurjr/catkin_ws/src/schunk_modular_robotics/schunk_sdh/msg/TactileMatrix.msg;/home/seekurjr/catkin_ws/src/schunk_modular_robotics/schunk_sdh/msg/TactileSensor.msg;/home/seekurjr/catkin_ws/src/schunk_modular_robotics/schunk_sdh/msg/TemperatureArray.msg;/home/seekurjr/catkin_ws/src/schunk_modular_robotics/schunk_sdh/msg/PressureArray.msg;/home/seekurjr/catkin_ws/src/schunk_modular_robotics/schunk_sdh/msg/PressureArrayList.msg")
+set(schunk_sdh_SERVICE_FILES "")

@@ -1,0 +1,400 @@
+[rosmaster.main][INFO] 2019-01-14 14:45:09,760: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-01-14 14:45:09,761: Starting ROS Master Node
+[xmlrpc][INFO] 2019-01-14 14:45:09,762: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-01-14 14:45:09,762: Started XML-RPC server [http://onboardpc:11311/]
+[rosmaster.master][INFO] 2019-01-14 14:45:09,762: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[xmlrpc][INFO] 2019-01-14 14:45:09,762: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-01-14 14:45:09,852: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 14:45:09,854: +PARAM [/roslaunch/uris/host_onboardpc__45645] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 14:45:10,022: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 14:45:10,022: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 14:45:10,028: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:33277/
+[rosmaster.master][INFO] 2019-01-14 14:45:10,029: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:33277/
+[rosmaster.master][INFO] 2019-01-14 14:45:10,031: +PUB [/rosout_agg] /rosout http://onboardpc:33277/
+[rosmaster.master][INFO] 2019-01-14 14:45:10,037: +SUB [/rosout] /rosout http://onboardpc:33277/
+[rosmaster.master][INFO] 2019-01-14 14:45:20,348: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 14:45:20,351: +PUB [/rosout] /lms1xx http://onboardpc:35075/
+[rosmaster.master][INFO] 2019-01-14 14:45:20,352: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:35075/
+[rosmaster.master][INFO] 2019-01-14 14:45:20,353: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:35075/
+[rosmaster.master][INFO] 2019-01-14 14:45:20,355: +PUB [/scan] /lms1xx http://onboardpc:35075/
+[rosmaster.master][INFO] 2019-01-14 14:45:20,386: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35075/']
+[rosmaster.master][INFO] 2019-01-14 14:45:20,392: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35075/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:45:24,604: -PUB [/rosout] /lms1xx http://onboardpc:35075/
+[rosmaster.master][INFO] 2019-01-14 14:45:24,607: -PUB [/scan] /lms1xx http://onboardpc:35075/
+[rosmaster.master][INFO] 2019-01-14 14:45:24,609: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:39421
+[rosmaster.master][INFO] 2019-01-14 14:45:24,610: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:39421
+[rosmaster.master][INFO] 2019-01-14 14:45:24,696: publisherUpdate[/rosout] -> http://onboardpc:33277/ []
+[rosmaster.master][INFO] 2019-01-14 14:45:24,698: publisherUpdate[/rosout] -> http://onboardpc:33277/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:46:34,337: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 14:46:34,340: +PUB [/rosout] /lms1xx http://onboardpc:34175/
+[rosmaster.master][INFO] 2019-01-14 14:46:34,341: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:34175/
+[rosmaster.master][INFO] 2019-01-14 14:46:34,342: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:34175/
+[rosmaster.master][INFO] 2019-01-14 14:46:34,344: +PUB [/scan] /lms1xx http://onboardpc:34175/
+[rosmaster.master][INFO] 2019-01-14 14:46:34,358: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:34175/']
+[rosmaster.master][INFO] 2019-01-14 14:46:34,359: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:34175/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:46:36,366: -PUB [/rosout] /lms1xx http://onboardpc:34175/
+[rosmaster.master][INFO] 2019-01-14 14:46:36,369: -PUB [/scan] /lms1xx http://onboardpc:34175/
+[rosmaster.master][INFO] 2019-01-14 14:46:36,371: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:34683
+[rosmaster.master][INFO] 2019-01-14 14:46:36,373: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:34683
+[rosmaster.master][INFO] 2019-01-14 14:46:36,439: publisherUpdate[/rosout] -> http://onboardpc:33277/ []
+[rosmaster.master][INFO] 2019-01-14 14:46:36,441: publisherUpdate[/rosout] -> http://onboardpc:33277/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:46:42,994: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 14:46:42,997: +PUB [/rosout] /lms1xx http://onboardpc:37151/
+[rosmaster.master][INFO] 2019-01-14 14:46:42,998: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:37151/
+[rosmaster.master][INFO] 2019-01-14 14:46:42,999: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:37151/
+[rosmaster.master][INFO] 2019-01-14 14:46:43,001: +PUB [/scan] /lms1xx http://onboardpc:37151/
+[rosmaster.master][INFO] 2019-01-14 14:46:43,055: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:37151/']
+[rosmaster.master][INFO] 2019-01-14 14:46:43,058: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:37151/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:46:48,771: -PUB [/rosout] /lms1xx http://onboardpc:37151/
+[rosmaster.master][INFO] 2019-01-14 14:46:48,774: -PUB [/scan] /lms1xx http://onboardpc:37151/
+[rosmaster.master][INFO] 2019-01-14 14:46:48,776: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:36893
+[rosmaster.master][INFO] 2019-01-14 14:46:48,779: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:36893
+[rosmaster.master][INFO] 2019-01-14 14:46:48,792: publisherUpdate[/rosout] -> http://onboardpc:33277/ []
+[rosmaster.master][INFO] 2019-01-14 14:46:48,793: publisherUpdate[/rosout] -> http://onboardpc:33277/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:49:25,458: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 14:49:25,461: +PUB [/rosout] /lms1xx http://onboardpc:33325/
+[rosmaster.master][INFO] 2019-01-14 14:49:25,462: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:33325/
+[rosmaster.master][INFO] 2019-01-14 14:49:25,463: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:33325/
+[rosmaster.master][INFO] 2019-01-14 14:49:25,465: +PUB [/scan] /lms1xx http://onboardpc:33325/
+[rosmaster.master][INFO] 2019-01-14 14:49:25,489: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:33325/']
+[rosmaster.master][INFO] 2019-01-14 14:49:25,491: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:33325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 14:49:27,597: -PUB [/rosout] /lms1xx http://onboardpc:33325/
+[rosmaster.master][INFO] 2019-01-14 14:49:27,599: -PUB [/scan] /lms1xx http://onboardpc:33325/
+[rosmaster.master][INFO] 2019-01-14 14:49:27,601: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:33949
+[rosmaster.master][INFO] 2019-01-14 14:49:27,602: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:33949
+[rosmaster.master][INFO] 2019-01-14 14:49:27,620: publisherUpdate[/rosout] -> http://onboardpc:33277/ []
+[rosmaster.master][INFO] 2019-01-14 14:49:27,621: publisherUpdate[/rosout] -> http://onboardpc:33277/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:03:43,590: +PARAM [/roslaunch/uris/host_onboardpc__42947] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:03:43,598: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:03:43,598: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:03:43,599: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:03:43,599: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:03:43,848: +PUB [/rosout] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:03:43,854: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:03:43,856: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:03:43,873: +PUB [/tf] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:03:43,875: +PUB [/tf_static] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:03:43,886: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/']
+[rosmaster.master][INFO] 2019-01-14 15:03:43,891: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:03:43,911: +SUB [/joint_states] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,488: +PUB [/rosout] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,489: +SERVICE [/rviz/get_loggers] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,490: +SERVICE [/rviz/set_logger_level] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,491: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/', 'http://onboardpc:40933/']
+[rosmaster.master][INFO] 2019-01-14 15:03:44,493: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/', 'http://onboardpc:40933/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:03:44,699: +PUB [/rosout] /joint_state_publisher http://onboardpc:39939/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,703: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://onboardpc:39939/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,705: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://onboardpc:39939/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,792: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/', 'http://onboardpc:40933/', 'http://onboardpc:39939/']
+[rosmaster.master][INFO] 2019-01-14 15:03:44,795: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/', 'http://onboardpc:40933/', 'http://onboardpc:39939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:03:44,945: +SUB [/tf] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:44,951: +SUB [/tf_static] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,190: +PUB [/joint_states] /joint_state_publisher http://onboardpc:39939/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,195: publisherUpdate[/joint_states] -> http://onboardpc:35569/ ['http://onboardpc:39939/']
+[rosmaster.master][INFO] 2019-01-14 15:03:45,198: publisherUpdate[/joint_states] -> http://onboardpc:35569/ ['http://onboardpc:39939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:03:45,250: +PUB [/initialpose] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,253: +PUB [/goal] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,850: -PUB [/goal] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,851: -PUB [/initialpose] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,858: +PUB [/initialpose] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,860: +PUB [/goal] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,861: +PUB [/move_base_simple/goal] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,862: -PUB [/goal] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,863: +PUB [/clicked_point] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:03:45,981: +SERVICE [/rviz/reload_shaders] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,617: -PUB [/clicked_point] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,621: -PUB [/move_base_simple/goal] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,624: -PUB [/initialpose] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,637: -SUB [/tf_static] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,639: -SUB [/tf] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,649: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://onboardpc:33897
+[rosmaster.master][INFO] 2019-01-14 15:04:16,752: -PUB [/rosout] /rviz http://onboardpc:40933/
+[rosmaster.master][INFO] 2019-01-14 15:04:16,755: -SERVICE [/rviz/get_loggers] /rviz rosrpc://onboardpc:33897
+[rosmaster.master][INFO] 2019-01-14 15:04:16,758: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://onboardpc:33897
+[rosmaster.master][INFO] 2019-01-14 15:04:16,761: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/', 'http://onboardpc:39939/']
+[rosmaster.master][INFO] 2019-01-14 15:04:16,763: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:35569/', 'http://onboardpc:39939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:04:17,062: -PUB [/rosout] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:04:17,063: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/']
+[rosmaster.master][INFO] 2019-01-14 15:04:17,063: -PUB [/tf] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:04:17,064: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:04:17,065: -PUB [/tf_static] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:04:17,066: -SUB [/joint_states] /robot_state_publisher http://onboardpc:35569/
+[rosmaster.master][INFO] 2019-01-14 15:04:17,067: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://onboardpc:50059
+[rosmaster.master][INFO] 2019-01-14 15:04:17,068: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://onboardpc:50059
+[rosmaster.master][INFO] 2019-01-14 15:05:12,412: +PUB [/rosout] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,414: +SERVICE [/rosarnl_node/get_loggers] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,415: +SERVICE [/rosarnl_node/set_logger_level] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,418: +PUB [/tf] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,420: +PUB [/rosarnl_node/motors_state] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,421: +PUB [/rosarnl_node/amcl_pose] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,422: +SERVICE [/rosarnl_node/enable_motors] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,423: +SERVICE [/rosarnl_node/disable_motors] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,424: +SERVICE [/rosarnl_node/wander] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,426: +SERVICE [/rosarnl_node/stop] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,427: +SERVICE [/rosarnl_node/dock] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,429: +SERVICE [/rosarnl_node/make_plan] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,431: +SERVICE [/rosarnl_node/global_localization] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,432: +SERVICE [/rosarnl_node/load_map_file] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,438: +SUB [/rosarnl_node/initialpose] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,439: +PUB [/rosarnl_node/arnl_server_mode] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,440: +PUB [/rosarnl_node/arnl_server_status] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,441: +PUB [/rosarnl_node/arnl_path_state] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,442: +PUB [/rosarnl_node/bumper_state] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,443: +PUB [/rosarnl_node/battery_status] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,449: +SUB [/rosarnl_node/move_base_simple/goal] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,454: +SUB [/rosarnl_node/goalname] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,459: +PUB [/rosarnl_node/current_goal] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,476: +SUB [/rosarnl_node/jog_position_simple/goal] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,483: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/', 'http://onboardpc:46041/']
+[rosmaster.master][INFO] 2019-01-14 15:05:12,484: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/', 'http://onboardpc:46041/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:05:12,499: +PUB [/rosarnl_node/move_base/result] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,500: +PUB [/rosarnl_node/move_base/feedback] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,502: +PUB [/rosarnl_node/move_base/status] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,511: +SUB [/rosarnl_node/move_base/goal] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,517: +SUB [/rosarnl_node/move_base/cancel] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,521: +PUB [/rosarnl_node/jog_position/result] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,523: +PUB [/rosarnl_node/jog_position/feedback] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,524: +PUB [/rosarnl_node/jog_position/status] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,534: +SUB [/rosarnl_node/jog_position/goal] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,541: +SUB [/rosarnl_node/jog_position/cancel] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,543: +PUB [/rosarnl_node/lms1xx_1_laserscan] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:12,545: +PUB [/rosarnl_node/lms1xx_1_pointcloud] /rosarnl_node http://onboardpc:46041/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,472: +PARAM [/roslaunch/uris/host_onboardpc__33957] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:05:23,478: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:05:23,478: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:05:23,479: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:05:23,479: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:05:23,721: +PUB [/rosout] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,723: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,725: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,738: +PUB [/tf] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,768: +PUB [/tf_static] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,791: +SUB [/joint_states] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,803: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/', 'http://onboardpc:46041/', 'http://onboardpc:38125/']
+[rosmaster.master][INFO] 2019-01-14 15:05:23,804: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/', 'http://onboardpc:46041/', 'http://onboardpc:38125/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:05:23,953: +PUB [/rosout] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,955: +SERVICE [/rviz/get_loggers] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:23,956: +SERVICE [/rviz/set_logger_level] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,004: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/', 'http://onboardpc:46041/', 'http://onboardpc:38125/', 'http://onboardpc:39599/']
+[rosmaster.master][INFO] 2019-01-14 15:05:24,006: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:39939/', 'http://onboardpc:46041/', 'http://onboardpc:38125/', 'http://onboardpc:39599/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:05:24,383: +SUB [/tf] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,386: +PUB [/rosout] /joint_state_publisher http://onboardpc:46155/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,392: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://onboardpc:46155/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,395: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://onboardpc:46155/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,400: +SUB [/tf_static] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,407: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:38125/', 'http://onboardpc:39599/', 'http://onboardpc:46155/']
+[rosmaster.master][INFO] 2019-01-14 15:05:24,413: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:38125/', 'http://onboardpc:39599/', 'http://onboardpc:46155/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:05:24,503: +PUB [/initialpose] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,505: +PUB [/goal] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,735: +PUB [/joint_states] /joint_state_publisher http://onboardpc:46155/
+[rosmaster.master][INFO] 2019-01-14 15:05:24,808: publisherUpdate[/joint_states] -> http://onboardpc:38125/ ['http://onboardpc:46155/']
+[rosmaster.master][INFO] 2019-01-14 15:05:24,810: publisherUpdate[/joint_states] -> http://onboardpc:38125/ ['http://onboardpc:46155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:05:25,197: -PUB [/goal] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,199: -PUB [/initialpose] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,205: +PUB [/initialpose] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,207: +PUB [/goal] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,208: +PUB [/move_base_simple/goal] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,209: -PUB [/goal] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,210: +PUB [/clicked_point] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:25,263: +SERVICE [/rviz/reload_shaders] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:05:35,305: +SUB [/rosarnl_node/lms1xx_1_laserscan] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:06:05,070: +SUB [/rosarnl_node/lms1xx_1_pointcloud] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:07:47,259: +SUB [/rosarnl_node/amcl_pose] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:13,972: -SUB [/rosarnl_node/amcl_pose] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,015: -SUB [/rosarnl_node/lms1xx_1_pointcloud] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,115: -SUB [/rosarnl_node/lms1xx_1_laserscan] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,120: -PUB [/clicked_point] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,122: -PUB [/move_base_simple/goal] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,123: -PUB [/initialpose] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,129: -SUB [/tf_static] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,130: -SUB [/tf] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,140: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://onboardpc:49899
+[rosmaster.master][INFO] 2019-01-14 15:08:14,243: -PUB [/rosout] /rviz http://onboardpc:39599/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,245: -SERVICE [/rviz/get_loggers] /rviz rosrpc://onboardpc:49899
+[rosmaster.master][INFO] 2019-01-14 15:08:14,246: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://onboardpc:49899
+[rosmaster.master][INFO] 2019-01-14 15:08:14,327: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:38125/', 'http://onboardpc:46155/']
+[rosmaster.master][INFO] 2019-01-14 15:08:14,329: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:38125/', 'http://onboardpc:46155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:08:14,597: -PUB [/rosout] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,598: -PUB [/tf] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,599: -PUB [/tf_static] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,600: -SUB [/joint_states] /robot_state_publisher http://onboardpc:38125/
+[rosmaster.master][INFO] 2019-01-14 15:08:14,602: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://onboardpc:36591
+[rosmaster.master][INFO] 2019-01-14 15:08:14,603: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://onboardpc:36591
+[rosmaster.master][INFO] 2019-01-14 15:08:14,629: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:46155/']
+[rosmaster.master][INFO] 2019-01-14 15:08:14,632: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:46155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:34:18,630: +PARAM [/roslaunch/uris/host_onboardpc__46343] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:34:18,637: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:34:18,637: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:34:18,638: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:34:18,638: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:34:18,846: +PUB [/rosout] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:34:18,848: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:34:18,849: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:34:18,858: +PUB [/tf] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:34:18,859: +PUB [/tf_static] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:34:18,879: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:46155/', 'http://onboardpc:45331/']
+[rosmaster.master][INFO] 2019-01-14 15:34:18,880: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:46155/', 'http://onboardpc:45331/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:34:18,893: +SUB [/joint_states] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,116: +PUB [/rosout] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,118: +SERVICE [/rviz/get_loggers] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,119: +SERVICE [/rviz/set_logger_level] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,180: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:46155/', 'http://onboardpc:45331/', 'http://onboardpc:36641/']
+[rosmaster.master][INFO] 2019-01-14 15:34:19,181: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:46155/', 'http://onboardpc:45331/', 'http://onboardpc:36641/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:34:19,473: +PUB [/rosout] /joint_state_publisher http://onboardpc:41995/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,478: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://onboardpc:41995/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,479: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://onboardpc:41995/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,483: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:45331/', 'http://onboardpc:36641/', 'http://onboardpc:41995/']
+[rosmaster.master][INFO] 2019-01-14 15:34:19,484: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:45331/', 'http://onboardpc:36641/', 'http://onboardpc:41995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:34:19,575: +SUB [/tf] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,580: +SUB [/tf_static] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,688: +PUB [/initialpose] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,691: +PUB [/goal] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,757: +PUB [/joint_states] /joint_state_publisher http://onboardpc:41995/
+[rosmaster.master][INFO] 2019-01-14 15:34:19,785: publisherUpdate[/joint_states] -> http://onboardpc:45331/ ['http://onboardpc:41995/']
+[rosmaster.master][INFO] 2019-01-14 15:34:19,787: publisherUpdate[/joint_states] -> http://onboardpc:45331/ ['http://onboardpc:41995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:34:20,365: -PUB [/goal] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,367: -PUB [/initialpose] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,373: +PUB [/initialpose] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,375: +PUB [/goal] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,376: +PUB [/move_base_simple/goal] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,377: -PUB [/goal] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,378: +PUB [/clicked_point] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:34:20,489: +SERVICE [/rviz/reload_shaders] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,255: -PUB [/clicked_point] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,258: -PUB [/move_base_simple/goal] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,260: -PUB [/initialpose] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,267: -SUB [/tf_static] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,268: -SUB [/tf] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,278: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://onboardpc:58617
+[rosmaster.master][INFO] 2019-01-14 15:36:15,406: -PUB [/rosout] /rviz http://onboardpc:36641/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,408: -SERVICE [/rviz/get_loggers] /rviz rosrpc://onboardpc:58617
+[rosmaster.master][INFO] 2019-01-14 15:36:15,409: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://onboardpc:58617
+[rosmaster.master][INFO] 2019-01-14 15:36:15,410: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:45331/', 'http://onboardpc:41995/']
+[rosmaster.master][INFO] 2019-01-14 15:36:15,411: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:45331/', 'http://onboardpc:41995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:36:15,785: -PUB [/rosout] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,786: -PUB [/tf] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,787: -PUB [/tf_static] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,789: -SUB [/joint_states] /robot_state_publisher http://onboardpc:45331/
+[rosmaster.master][INFO] 2019-01-14 15:36:15,790: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://onboardpc:47215
+[rosmaster.master][INFO] 2019-01-14 15:36:15,791: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://onboardpc:47215
+[rosmaster.master][INFO] 2019-01-14 15:36:15,811: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:41995/']
+[rosmaster.master][INFO] 2019-01-14 15:36:15,812: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:41995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:39:00,142: +PARAM [/roslaunch/uris/host_onboardpc__41121] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:39:00,148: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:39:00,149: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:39:00,149: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:39:00,149: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 15:39:00,382: +PUB [/rosout] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,384: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,385: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,401: +PUB [/tf] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,418: +PUB [/tf_static] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,423: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:41995/', 'http://onboardpc:43821/']
+[rosmaster.master][INFO] 2019-01-14 15:39:00,425: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:41995/', 'http://onboardpc:43821/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:39:00,446: +SUB [/joint_states] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,609: +PUB [/rosout] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,612: +SERVICE [/rviz/get_loggers] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,613: +SERVICE [/rviz/set_logger_level] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:00,627: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:41995/', 'http://onboardpc:43821/', 'http://onboardpc:39819/']
+[rosmaster.master][INFO] 2019-01-14 15:39:00,628: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:41995/', 'http://onboardpc:43821/', 'http://onboardpc:39819/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:39:01,023: +PUB [/rosout] /joint_state_publisher http://onboardpc:43383/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,031: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://onboardpc:43383/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,033: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://onboardpc:43383/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,036: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']
+[rosmaster.master][INFO] 2019-01-14 15:39:01,037: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:39:01,046: +SUB [/tf] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,056: +SUB [/tf_static] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,153: +PUB [/initialpose] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,156: +PUB [/goal] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,354: +PUB [/joint_states] /joint_state_publisher http://onboardpc:43383/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,438: publisherUpdate[/joint_states] -> http://onboardpc:43821/ ['http://onboardpc:43383/']
+[rosmaster.master][INFO] 2019-01-14 15:39:01,441: publisherUpdate[/joint_states] -> http://onboardpc:43821/ ['http://onboardpc:43383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:39:01,896: -PUB [/goal] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,897: -PUB [/initialpose] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,904: +PUB [/initialpose] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,906: +PUB [/goal] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,908: +PUB [/move_base_simple/goal] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,909: -PUB [/goal] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,910: +PUB [/clicked_point] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:39:01,970: +SERVICE [/rviz/reload_shaders] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:40:40,355: +SUB [/rosarnl_node/lms1xx_1_laserscan] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:43:05,497: +PUB [/rosout] /rostopic_6367_1547487785316 http://onboardpc:40691/
+[rosmaster.master][INFO] 2019-01-14 15:43:05,503: +SERVICE [/rostopic_6367_1547487785316/get_loggers] /rostopic_6367_1547487785316 http://onboardpc:40691/
+[rosmaster.master][INFO] 2019-01-14 15:43:05,506: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/', 'http://onboardpc:40691/']
+[rosmaster.master][INFO] 2019-01-14 15:43:05,506: +SERVICE [/rostopic_6367_1547487785316/set_logger_level] /rostopic_6367_1547487785316 http://onboardpc:40691/
+[rosmaster.master][INFO] 2019-01-14 15:43:05,508: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/', 'http://onboardpc:40691/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:43:05,526: +SUB [/initialpose] /rostopic_6367_1547487785316 http://onboardpc:40691/
+[rosmaster.master][INFO] 2019-01-14 15:43:12,014: -SUB [/initialpose] /rostopic_6367_1547487785316 http://onboardpc:40691/
+[rosmaster.master][INFO] 2019-01-14 15:43:12,015: -PUB [/rosout] /rostopic_6367_1547487785316 http://onboardpc:40691/
+[rosmaster.master][INFO] 2019-01-14 15:43:12,015: -SERVICE [/rostopic_6367_1547487785316/set_logger_level] /rostopic_6367_1547487785316 rosrpc://onboardpc:34403
+[rosmaster.master][INFO] 2019-01-14 15:43:12,015: -SERVICE [/rostopic_6367_1547487785316/get_loggers] /rostopic_6367_1547487785316 rosrpc://onboardpc:34403
+[rosmaster.master][INFO] 2019-01-14 15:43:12,020: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']
+[rosmaster.master][INFO] 2019-01-14 15:43:12,022: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:43:24,315: +PUB [/rosout] /rostopic_6394_1547487804125 http://onboardpc:39691/
+[rosmaster.master][INFO] 2019-01-14 15:43:24,319: +SERVICE [/rostopic_6394_1547487804125/get_loggers] /rostopic_6394_1547487804125 http://onboardpc:39691/
+[rosmaster.master][INFO] 2019-01-14 15:43:24,321: +SERVICE [/rostopic_6394_1547487804125/set_logger_level] /rostopic_6394_1547487804125 http://onboardpc:39691/
+[rosmaster.master][INFO] 2019-01-14 15:43:24,337: +SUB [/move_base_simple/goal] /rostopic_6394_1547487804125 http://onboardpc:39691/
+[rosmaster.master][INFO] 2019-01-14 15:43:24,345: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/', 'http://onboardpc:39691/']
+[rosmaster.master][INFO] 2019-01-14 15:43:24,346: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/', 'http://onboardpc:39691/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:43:57,295: -SUB [/move_base_simple/goal] /rostopic_6394_1547487804125 http://onboardpc:39691/
+[rosmaster.master][INFO] 2019-01-14 15:43:57,296: -PUB [/rosout] /rostopic_6394_1547487804125 http://onboardpc:39691/
+[rosmaster.master][INFO] 2019-01-14 15:43:57,296: -SERVICE [/rostopic_6394_1547487804125/set_logger_level] /rostopic_6394_1547487804125 rosrpc://onboardpc:45187
+[rosmaster.master][INFO] 2019-01-14 15:43:57,296: -SERVICE [/rostopic_6394_1547487804125/get_loggers] /rostopic_6394_1547487804125 rosrpc://onboardpc:45187
+[rosmaster.master][INFO] 2019-01-14 15:43:57,308: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']
+[rosmaster.master][INFO] 2019-01-14 15:43:57,309: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:43821/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 15:44:54,654: -PUB [/rosout] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,655: -PUB [/tf] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,656: -PUB [/tf_static] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,657: -SUB [/joint_states] /robot_state_publisher http://onboardpc:43821/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,658: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://onboardpc:44447
+[rosmaster.master][INFO] 2019-01-14 15:44:54,659: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://onboardpc:44447
+[rosmaster.master][INFO] 2019-01-14 15:44:54,710: -PUB [/rosout_agg] /rosout http://onboardpc:33277/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,712: -SUB [/rosout] /rosout http://onboardpc:33277/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,713: -SERVICE [/rosout/get_loggers] /rosout rosrpc://onboardpc:57155
+[rosmaster.master][INFO] 2019-01-14 15:44:54,715: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://onboardpc:57155
+[rosmaster.master][INFO] 2019-01-14 15:44:54,716: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']
+[rosmaster.master][INFO] 2019-01-14 15:44:54,716: publisherUpdate[/tf] -> http://onboardpc:39819/ ['http://onboardpc:46041/']
+[rosmaster.master][INFO] 2019-01-14 15:44:54,717: publisherUpdate[/tf] -> http://onboardpc:39819/ ['http://onboardpc:46041/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-14 15:44:54,717: publisherUpdate[/tf_static] -> http://onboardpc:39819/ []
+[rosmaster.master][INFO] 2019-01-14 15:44:54,718: publisherUpdate[/tf_static] -> http://onboardpc:39819/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-14 15:44:54,720: publisherUpdate[/rosout] -> http://onboardpc:33277/ ['http://onboardpc:46041/', 'http://onboardpc:39819/', 'http://onboardpc:43383/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2019-01-14 15:44:54,725: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-01-14 15:44:54,819: -PUB [/rosout] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,821: -PUB [/initialpose] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,823: -PUB [/move_base_simple/goal] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,825: -PUB [/clicked_point] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,826: -SUB [/tf] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,830: -SUB [/tf_static] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,832: -SUB [/rosarnl_node/lms1xx_1_laserscan] /rviz http://onboardpc:39819/
+[rosmaster.master][INFO] 2019-01-14 15:44:54,833: -SERVICE [/rviz/get_loggers] /rviz rosrpc://onboardpc:47669
+[rosmaster.master][INFO] 2019-01-14 15:44:54,835: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://onboardpc:47669
+[rosmaster.master][INFO] 2019-01-14 15:44:54,836: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://onboardpc:47669
+[rosmaster.main][INFO] 2019-01-14 15:44:54,857: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-01-14 15:44:54,858: stopping master...
+[rospy.core][INFO] 2019-01-14 15:44:54,858: signal_shutdown [atexit]

@@ -1,0 +1,8 @@
+prefix=/home/seekurjr/catkin_ws/devel
+
+Name: seekur_jr_gazebo
+Description: Description of seekur_jr_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/seekurjr/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2018-12-05 16:35:30,335: init_node, name[/rqt_gui_py_node_547], pid[547]
+[xmlrpc][INFO] 2018-12-05 16:35:30,335: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 16:35:30,336: Started XML-RPC server [http://onboardpc:36019/]
+[rospy.impl.masterslave][INFO] 2018-12-05 16:35:30,336: _ready: http://onboardpc:36019/
+[rospy.init][INFO] 2018-12-05 16:35:30,336: ROS Slave URI: [http://onboardpc:36019/]
+[rospy.registration][INFO] 2018-12-05 16:35:30,337: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-05 16:35:30,338: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-05 16:35:30,437: registered with master
+[rospy.rosout][INFO] 2018-12-05 16:35:30,438: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-05 16:35:30,441: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-05 16:35:30,444: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-05 16:35:30,732: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-05 16:35:46,302: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-12-05 16:35:46,311: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-05 16:35:46,312: atexit

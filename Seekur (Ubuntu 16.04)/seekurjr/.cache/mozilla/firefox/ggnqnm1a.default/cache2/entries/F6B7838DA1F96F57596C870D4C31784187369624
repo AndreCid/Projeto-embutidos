@@ -1,0 +1,728 @@
+@charset "iso-8859-1";
+/* Body definitions */
+body		
+{	
+	font-size: xx-small; 
+	margin-top:5px; 
+	margin-bottom:5px; 
+	margin-left:20px;
+	margin-right:5px;
+	padding:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body.right
+{
+	font-size: xx-small; 
+	margin:5px; 
+	padding:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* br definitions */
+br		  
+{
+	font-size:xx-small; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Paragraph definitions */
+p		    
+{
+	font-size:xx-small; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Table  definitions */
+table
+{
+	/*
+   padding: 5px;
+   */
+   width: 100%;
+}			
+
+input.ikon_minus {
+	background-image: url(minus.gif);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 0px;
+}
+ 
+input.ikon_plus {
+	background-image: url(plus.gif);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;	
+	border: 0px;	
+}
+
+/* menu properties */
+/* menu table */
+table.menu
+{
+    width:100%;
+    text-align:left;
+    height:30%;
+    table-layout:fixed;
+}
+
+table.submenu
+{
+    width:100%;
+    text-align:left;
+    height:70%;
+    table-layout:fixed;
+}
+
+th
+{
+	font-size:xx-small; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr
+{
+	font-size:xx-small; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.rowWithCaption th 
+{
+	background-color:#D1D9E8;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top;
+	padding:3px 5px 2px 5px;
+	color:#000000; /*fff;	*/
+	border-right:1px solid #ccc;
+      border-left:1px inset ;
+}
+
+th.rowWithCaption  
+{
+	background-color:#D1D9E8;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top;
+	padding:3px 5px 2px 5px;
+	color:#000000; /*fff;	*/
+	border-right:1px solid #ccc;
+}
+
+th.rowWithCaptionWhite  
+{
+	background-color:#FFFFFF;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top;
+	padding:3px 5px 2px 5px;
+	color:#000000; /*fff;	*/
+	border-right:1px solid #ccc;
+}
+
+tr.rowLoginHeader th 
+{
+	background-color:#5090D0;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top;
+	padding:3px 5px 2px 5px;
+	color:#fff;	
+	border-right:1px solid #ccc;
+}
+
+/* table links */
+tr.rowWithCaption a:link,
+tr.rowWithCaption a:visited,
+tr.rowWithCaption a:active,
+tr.rowWithCaption a:hover ,
+div.columnHeader a:link,
+div.columnHeader a:visited,
+div.columnHeader a:active,
+div.columnHeader a:hover 
+{
+	color: #000;
+	text-decoration:none;
+}
+
+tr.rowWithReaderCaption 
+{
+	display:none;
+}
+
+tr.rowWithReaderCaption th input 
+{
+	display:none;
+}
+
+/* menu table row */
+tr.menu
+{
+}
+
+
+tr.submenu
+{
+}
+
+td		  
+{
+	font-size:xx-small; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* menu table cell */
+td.menu
+{
+    /* height */
+    height: 30%;
+    /* width */
+    width: 20%;
+    /* alignment */
+    text-align: center;
+}
+
+/* menu table cell */
+td.menuButton
+{
+	background-color:#BFBFBF;
+}
+
+td.submenu
+{
+    /* height */
+    height: 70%;
+    /* width */
+    width: 12.5%;
+    /* alignment */
+    text-align: center;
+}
+
+td.submenuButton
+{
+}
+
+.tableWithData
+{
+	border:1px solid #ccc;
+	border-top-width:0px;
+	width:100%;
+}
+
+.tableScrollable 
+{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left-width:0px;	
+}
+
+/* table row colors */
+tr.rowAlternatingColor td
+{ 
+	background-color:#F0F0F0;
+	border-top:1px ;
+      border-bottom:1px  #ccc\9\0;
+      border-left:1px\9\0;
+      border-right:1px  #ccc\9\0;
+	vertical-align:top;
+}
+
+.tableWithData td, 
+.tableScrollable td 
+{
+	background-color:#F0F0F0;
+	border-top:1px;
+      border-bottom:1px  #ccc\9\0;
+      border-left:1px\9\0;
+      border-right:1px #ccc\9\0;
+	vertical-align:top;
+}
+
+.tableWithData th.cellWithCheckbox,
+.tableScrollable th.cellWithCheckbox, 
+.tableWithData td.cellWithCheckbox,
+.tableScrollable td.cellWithCheckbox 
+{
+	padding:0px 0px;
+}
+
+/* table links */
+tr.rowWithCaption a:link,
+tr.rowWithCaption a:visited,
+tr.rowWithCaption a:active,
+tr.rowWithCaption a:hover ,
+div.columnHeader a:link,
+div.columnHeader a:visited,
+div.columnHeader a:active,
+div.columnHeader a:hover 
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+/* for scrolling tables. */
+table.tableScrollable 
+{
+	width:100%;
+}
+
+tr.rowWithReaderCaption 
+{
+	display:none;
+}
+
+tr.rowEmpty td 
+{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+tr.rowEmpty div
+{
+	height:1px;
+	overflow:hidden;
+}
+
+tr.rowWithReaderCaption th input 
+{
+	display:none;
+}
+
+TABLE.warningMessage
+{
+	width: 100%; 
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black;
+	border-left: 1px solid black; 
+	border-right: 1px solid black;
+	
+	padding: 0px;
+}
+
+TABLE.inventory
+{
+	width: 100%;
+	text-align: center;	
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+TD.inventoryExpandButton
+{		  		  
+	border-left: 1px solid black;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;	
+	width: 75px;
+	background-color: white;
+	vertical-align: top;
+}
+
+TD.slotFull
+{
+	width: 75px;
+	color: white;
+	background-color: #666666;
+	border: 1px solid white;
+}
+
+TD.slotEmpty
+{
+	width: 75px;
+	color: black;
+	background-color: white;
+	border: 2px solid white;
+}
+
+TD.slotRemovedFull
+{
+	width: 75px;
+	color: white;
+	background-color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+}
+
+TD.slotRemovedEmpty
+{
+	width: 75px;
+	color: black;
+	background-color: #CCCCCC;
+	border: 2px solid #CCCCCC;
+}
+
+/* media_status properties */
+/* media_status table */
+TABLE.media_status
+{
+    /* width */
+    width: 95%;
+    /* information table border */
+    border-style:         solid;
+    border-color:           black;
+    border-width:           1px;
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 9pt;
+}
+
+/* media_status table row */
+TR.media_status
+{
+}
+
+/* media_status table cell */
+TD.media_status
+{
+    /* width */
+    width: 20%;
+    /* alignment */
+    text-align: center;
+    border-left: 1px solid black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+/* media_status table header cell */
+TH.media_status
+{
+    /* width */
+    width: 20%;
+    /* text alignment (horizontal and vertical) */
+    text-align: center;
+    vertical-align: top;
+    /* information border */
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+/* media status header  */
+TH.media_status_header
+{
+    /* width */
+    width: 100%;
+    /* text horizontal alignment */
+    text-align: center;
+    /* background color */
+    background-color:  #DDDDDD;
+    /* font size */
+    font-size: 11pt;
+
+    /* bottom border */
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+/* support */
+/* support header cell */
+TH.support
+{
+    text-align: left
+}
+
+/* info properties */
+/* info table */
+TABLE.info
+{
+    /* width */
+    width : 95%;
+    /* information table border */
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    /* font size */
+    font-size: 9pt;
+}
+
+/* info table cell */
+TD.info
+{
+    /* width */
+    width  : 60%;
+}
+
+/* info table header cell */
+TH.info
+{
+    /* width */
+    width : 40%;
+    /* text alignment (horizontal and vertical) */
+    text-align: left;
+    vertical-align: top;
+    /* information border */
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+/* info properties */
+/* info table header */
+TH.info_header
+{
+    /* width */
+    width : 100%;
+    /* text horizontal alignment */
+    text-align : center;
+    /* background color */
+    background-color: #DDDDDD;
+    /* font size */
+    font-size: 11pt;
+
+    /* bottom border */
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+/* Header definitions */
+h1		  
+{
+	font-size:22pt; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2		  
+{
+	font-size:20pt; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3		  
+{
+	font-size:18pt; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h4		  
+{
+	font-size:16pt; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h5		  
+{
+	font-size:14pt; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h6		  
+{
+	font-size:12pt; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+} 
+
+/* menu links */
+A.maintab
+{
+    /* foreground color white */
+    color: #000000;
+    /* no underline link.*/
+    text-decoration : none;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.maintab:hover
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.maintab:active
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-weight:bold;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.maintab_active
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-weight:bold;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+A.subtab
+{
+    /* foreground color white */
+    color: #000000;
+    /* no underline link.*/
+    text-decoration : none;
+    font-style: italic;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.subtab:hover
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-style: italic;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.subtab:active
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-style: italic;
+    font-weight:bold;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.subtab_active
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-style: italic;
+    font-weight:bold;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.quicklink
+{
+    /* foreground color white */
+    color: #000000;
+    /* no underline link.*/
+    text-decoration : none;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.quicklink:hover
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+A.quicklink:active
+{
+    /* foreground color white */
+    color: purple;
+    /* no underline link.*/
+    text-decoration : none;
+    font-weight:bold;
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Image definitions */
+img
+{
+    font-size: xx-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Div definitions */
+div.headerOuter 
+{
+	overflow:hidden;
+	background-color:#968F89;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+div.columnHeader 
+{
+	float:left;
+	overflow:visible !important;
+	background-color:#968F89;
+	font-weight:bold;
+	text-align:left;
+	color:#fff;
+	border-right:1px solid #fff;
+}
+
+div.columnHeader div 
+{
+	padding:2px 5px;
+}
+
+div.headerInner 
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:20px;
+}
+
+div.spacerPad 
+{
+	padding:0px 0px;
+}
+
+.scrollingTable 
+{
+	clear:both;
+	overflow:auto; 
+	width:100%;
+	border:1px solid #968F89;
+	background-color:#eeeeee;
+	border-top-width:0px;
+	margin-bottom:10px;
+}
+
+.areaSilver 
+{
+	background-color:#F0F0F0;
+}
+
+div.setOfButtons 
+{
+	float:right;
+	margin-bottom:10px;
+	padding-left:13px;
+}
+
+/* these are the right and bottom edge colors for the various states */
+div.buttonEnclosure,
+div.buttonEnclosure div
+{
+	background-color:#FFFFFF;
+}
+
+div.buttonEnclosure
+{
+	float:right;
+	direction:ltr;
+	margin-left:8px;
+	margin-bottom:8px;
+}A"böç      \<≤~\<≤~?Ô           :http://10.2.1.2/style.css necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 Document Follows
+Content-Type: text/plain
+Content-Length: 12553
+ original-response-headers Content-Type: text/plain
+Content-Length: 12553
+ uncompressed-len 0 net-response-time-onstart 29 net-response-time-onstop 57   1	

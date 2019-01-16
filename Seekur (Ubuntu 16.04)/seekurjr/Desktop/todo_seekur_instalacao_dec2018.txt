@@ -1,0 +1,190 @@
+- criar pull request com as modificacoes feitas no makefile do ariacoda (pasta git)
+- adicionar os passos necessarios para instalar os aria
+- instalar rosaria e testar sensores
+
+TUTORIAL:
+
+Instalar xubuntu e remover unity:
+sudo apt install xubuntu-desktop
+sudo apt purge unity unity8
+sudo apt install htop
+sudo apt install traceroute
+
+Editar hosts
+sudo vim /etc/hosts
+	127.0.0.1       localhost
+	127.0.1.1       onboardpc
+
+Instalar ROS
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt-get update
+sudo apt-get install ros-kinetic-desktop-full
+
+Preparar interfaces de rede:
+sudo vim /etc/network/interfaces
+
+Instalar ssh:
+sudo apt install ssh openssh-server openssh-client
+
+Instalar VNC:
+
+sudo apt-get install vnc4server
+
+vim ~/.vnc/xstartup
+	xrdb $HOME/.Xresources
+	startxfce4 &
+
+Preparar rede:
+ls /etc/NetworkManager/system-connections/
+
+itv_network-21277f8f-cbf1-30eb-bba4-1c8fcae7c906  
+	[connection]
+	id=itv_network
+	uuid=21277f8f-cbf1-30eb-bba4-1c8fcae7c906
+	type=ethernet
+	autoconnect-priority=-999
+	permissions=
+	secondaries=
+	timestamp=1519176321
+
+	[ethernet]
+	duplex=full
+	mac-address=00:04:BF:B0:E8:57
+	mac-address-blacklist=
+
+	[ipv4]
+	dns=8.8.8.8;8.8.4.4;
+	dns-search=
+	method=auto
+
+	[ipv6]
+	addr-gen-mode=stable-privacy
+	dns-search=
+	ip6-privacy=0
+	method=auto
+
+seekur_network
+	[connection]
+	id=seekur_network
+	uuid=98692b1f-a1d7-4be8-80e8-6a7e8d2b2de0
+	type=ethernet
+	interface-name=enp2s0
+	permissions=
+	secondaries=
+	timestamp=1519175480
+
+	[ethernet]
+	duplex=full
+	mac-address=00:04:BF:B0:E8:57
+	mac-address-blacklist=
+
+	[ipv4]
+	address1=10.0.125.32/24,10.0.125.1
+	address2=192.168.0.32/24
+	dns-search=
+	method=manual
+
+	[ipv6]
+	addr-gen-mode=stable-privacy
+	dns-search=
+	ip6-privacy=0
+	method=auto
+
+itv_seekur_static_network
+	[connection]
+	id=itv_seekur_static_network
+	uuid=0012cca9-78d3-4d11-86c0-d0da24f5d791
+	type=ethernet
+	interface-name=enp2s0
+	permissions=
+	secondaries=
+	timestamp=1544053214
+
+	[ethernet]
+	duplex=full
+	mac-address=00:04:BF:B0:E8:57
+	mac-address-blacklist=
+
+	[ipv4]
+	address1=10.2.1.104/24,10.2.1.254
+	address2=10.0.125.32/24
+	address3=192.168.0.32/24
+	dns=8.8.8.8;8.8.4.4;
+	dns-search=
+	may-fail=false
+	method=manual
+	route1=10.0.126.0/24,10.0.125.1
+	route2=10.2.9.0/24,10.2.1.254
+	route3=10.2.1.0/24,10.2.1.254
+
+	[ipv6]
+	addr-gen-mode=stable-privacy
+	dns-search=
+	ip6-privacy=0
+	method=auto
+
+
+Prepare serial ports:
+sudo apt install setserial
+sudo vim /var/lib/setserial/autoserial.conf
+	###PORT STATE GENERATED USING AUTOSAVE-ONCE###
+	###AUTOSAVE-ONCE###
+	###AUTOSAVE-ONCE###
+	###AUTOSAVE###
+	#
+	# If you want to configure this file by hand, use 
+	# dpkg-reconfigure setserial
+	# and change the configuration mode of the file to MANUAL. If you do not do this, this file may be overwritten automatically the next time you upgrade the
+	# package.
+	#
+	/dev/ttyS0 uart 16550A port 0x03f8 irq 4 baud_base 115200 spd_normal skip_test
+	/dev/ttyS1 uart 16550A port 0x02f8 irq 3 baud_base 115200 spd_normal skip_test
+	/dev/ttyS2 uart 16550A port 0x03e8 irq 7 baud_base 115200 spd_normal skip_test
+	/dev/ttyS3 uart 16550A port 0x02e8 irq 5 baud_base 115200 spd_normal skip_test
+
+Install AriaCoda:
+git clone https://github.com/reedhedges/AriaCoda
+cd AriaCoda
+vim Makefile
+	*remover as linhas relacionadas ao csharp
+make
+sudo make install
+
+sudo ln /usr/local/Aria/examples/seekurPower /usr/bin/
+
+Prepare ARIA configs:
+	sudo vim /usr/local/Aria/params/seekurjr.p
+
+Instalar java:
+	https://www.digitalocean.com/community/tutorials/como-instalar-o-java-com-apt-get-no-ubuntu-16-04-pt
+
+Configuracao do ARNL e ARIA (instalar versao 1.9.4 ou 1.9.2):
+	http://robots.mobilerobots.com/ARNL/download/prerelease/
+	http://robots.mobilerobots.com/BaseArnl/download/current/
+
+	https://github.com/MobileRobots/ros-arnl
+	https://github.com/MobileRobots/rosaria
+
+Colocar driver do esd_can2 no modules para sempre iniciar:
+sudo vim /etc/modules
+	# /etc/modules: kernel modules to load at boot time.
+	#
+	# This file contains the names of kernel modules that should be loaded
+	# at boot time, one per line. Lines beginning with "#" are ignored.
+	esd_usb2
+
+
+clonar modulos do braco:
+	Seguir o tutorial de: https://ammarnajjar.github.io/development/2016/06/22/lwa4p-robot/#Choosing%20CAN%20Drive
+	git clone --single-branch -b kinetic https://github.com/ros-industrial/ros_canopen
+	rosdep install --from-paths src --ignore-src -y
+	sudo apt install ros-kinetic-moveit*
+
+	git clone https://github.com/ammarnajjar/lwa4p_moveit_config
+	*revisar porque o ultimo joint esta torto*
+
+Instalar Lidar
+	Add rota: $ sudo ip route add 192.168.0.0/24 dev enp2s0
+	baixar e depois compilar: $ git clone https://github.com/clearpathrobotics/LMS1xx
+	para rodar: rosrun lms1xx LMS1xx_node _host:=192.168.0.1

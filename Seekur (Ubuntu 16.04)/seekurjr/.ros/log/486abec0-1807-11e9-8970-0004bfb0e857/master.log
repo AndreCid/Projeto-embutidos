@@ -1,0 +1,27 @@
+[rosmaster.main][INFO] 2019-01-14 12:18:38,346: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-01-14 12:18:38,346: Starting ROS Master Node
+[xmlrpc][INFO] 2019-01-14 12:18:38,347: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-01-14 12:18:38,348: Started XML-RPC server [http://onboardpc:11311/]
+[rosmaster.master][INFO] 2019-01-14 12:18:38,348: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[xmlrpc][INFO] 2019-01-14 12:18:38,348: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-01-14 12:18:38,436: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 12:18:38,439: +PARAM [/roslaunch/uris/host_onboardpc__32899] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 12:18:38,607: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 12:18:38,608: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-14 12:18:38,616: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:43947/
+[rosmaster.master][INFO] 2019-01-14 12:18:38,617: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:43947/
+[rosmaster.master][INFO] 2019-01-14 12:18:38,619: +PUB [/rosout_agg] /rosout http://onboardpc:43947/
+[rosmaster.master][INFO] 2019-01-14 12:18:38,625: +SUB [/rosout] /rosout http://onboardpc:43947/
+[rosmaster.master][INFO] 2019-01-14 12:18:39,739: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-14 12:18:39,742: +PUB [/rosout] /lms1xx http://onboardpc:45743/
+[rosmaster.master][INFO] 2019-01-14 12:18:39,744: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:45743/
+[rosmaster.master][INFO] 2019-01-14 12:18:39,745: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:45743/
+[rosmaster.master][INFO] 2019-01-14 12:18:39,746: +PUB [/scan] /lms1xx http://onboardpc:45743/
+[rosmaster.master][INFO] 2019-01-14 12:18:39,754: publisherUpdate[/rosout] -> http://onboardpc:43947/ ['http://onboardpc:45743/']
+[rosmaster.master][INFO] 2019-01-14 12:18:39,757: publisherUpdate[/rosout] -> http://onboardpc:43947/ ['http://onboardpc:45743/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-14 12:18:42,375: -PUB [/rosout] /lms1xx http://onboardpc:45743/
+[rosmaster.master][INFO] 2019-01-14 12:18:42,376: -PUB [/scan] /lms1xx http://onboardpc:45743/
+[rosmaster.master][INFO] 2019-01-14 12:18:42,377: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:51433
+[rosmaster.master][INFO] 2019-01-14 12:18:42,379: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:51433
+[rosmaster.master][INFO] 2019-01-14 12:18:42,460: publisherUpdate[/rosout] -> http://onboardpc:43947/ []
+[rosmaster.master][INFO] 2019-01-14 12:18:42,462: publisherUpdate[/rosout] -> http://onboardpc:43947/ []: sec=0.00, result=[1, '', 0]

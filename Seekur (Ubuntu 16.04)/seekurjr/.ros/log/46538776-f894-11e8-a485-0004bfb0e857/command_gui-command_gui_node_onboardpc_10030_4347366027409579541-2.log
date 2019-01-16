@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2018-12-05 15:50:23,770: init_node, name[/command_gui/command_gui_node_onboardpc_10030_4347366027409579541], pid[10053]
+[xmlrpc][INFO] 2018-12-05 15:50:23,771: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 15:50:23,772: Started XML-RPC server [http://onboardpc:35245/]
+[rospy.init][INFO] 2018-12-05 15:50:23,772: ROS Slave URI: [http://onboardpc:35245/]
+[rospy.impl.masterslave][INFO] 2018-12-05 15:50:23,773: _ready: http://onboardpc:35245/
+[rospy.registration][INFO] 2018-12-05 15:50:23,774: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-05 15:50:23,774: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-05 15:50:23,873: registered with master
+[rospy.rosout][INFO] 2018-12-05 15:50:23,874: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-05 15:50:23,878: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-05 15:50:23,880: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-05 15:50:24,129: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-12-05 15:50:32,412: <<init>> <<gripper>>
+[rosout][ERROR] 2018-12-05 15:50:32,416: Parameter /script_server/gripper/service_ns does not exist on ROS Parameter Server, aborting...
+[rosout][INFO] 2018-12-05 15:50:34,073: <<init>> <<gripper>>
+[rosout][ERROR] 2018-12-05 15:50:34,077: Parameter /script_server/gripper/service_ns does not exist on ROS Parameter Server, aborting...
+[rosout][INFO] 2018-12-05 16:00:45,626: Move <<gripper>> to <<open>>
+[rosout][INFO] 2018-12-05 16:00:47,517: <<init>> <<gripper>>
+[rospy.internal][INFO] 2018-12-05 16:00:48,654: topic impl's ref count is zero, deleting topic /gripper/joint_states...
+[rosout][WARNING] 2018-12-05 16:00:48,658: no joint states received from gripper within timeout of 3.0sec. using default point time of 8sec.
+[rosout][INFO] 2018-12-05 16:00:48,857: <<init>> <<gripper>>
+[rosout][ERROR] 2018-12-05 16:00:49,695: ActionServer /gripper/joint_trajectory_controller/follow_joint_trajectory not ready within timeout, aborting...
+[rosout][INFO] 2018-12-05 16:00:49,859: <<recover>> <<gripper>>
+[rosout][INFO] 2018-12-05 16:00:52,135: Move <<gripper>> to <<open>>
+[rospy.internal][INFO] 2018-12-05 16:00:55,171: topic impl's ref count is zero, deleting topic /gripper/joint_states...
+[rosout][WARNING] 2018-12-05 16:00:55,175: no joint states received from gripper within timeout of 3.0sec. using default point time of 8sec.
+[rosout][ERROR] 2018-12-05 16:00:56,199: ActionServer /gripper/joint_trajectory_controller/follow_joint_trajectory not ready within timeout, aborting...
+[rospy.internal][INFO] 2018-12-05 16:03:03,783: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2018-12-05 16:03:05,935: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2018-12-05 16:03:05,936: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2018-12-05 16:03:05,936: signal-2
+[rospy.core][INFO] 2018-12-05 16:03:06,053: signal_shutdown [atexit]

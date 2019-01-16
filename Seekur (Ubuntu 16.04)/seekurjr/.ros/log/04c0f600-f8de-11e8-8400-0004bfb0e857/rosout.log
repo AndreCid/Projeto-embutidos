@@ -1,0 +1,4 @@
+
+
+1544049309.521846346  Node Startup
+1544049311.468372558 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1

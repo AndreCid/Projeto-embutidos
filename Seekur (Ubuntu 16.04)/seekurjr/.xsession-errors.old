@@ -1,0 +1,8 @@
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+upstart: upstart-dbus-session-bridge main process (1078) terminated with status 1
+upstart: startxfce4 main process (1540) killed by TERM signal
+upstart: bamfdaemon main process (1076) killed by TERM signal
+upstart: startxfce4 pre-stop process (6678) killed by TERM signal
+upstart: gpg-agent post-stop process (6684) killed by HUP signal
+upstart: Disconnected from notified D-Bus bus

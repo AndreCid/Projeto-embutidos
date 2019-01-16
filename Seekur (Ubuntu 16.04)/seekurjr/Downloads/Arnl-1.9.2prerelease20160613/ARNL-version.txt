@@ -1,0 +1,6 @@
+Arnl Version 1.9.2prerelease20160613
+June 13, 2016
+Adept MobileRobots
+
+Linux 
+gcc-4.6.3

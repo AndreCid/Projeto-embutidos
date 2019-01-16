@@ -1,0 +1,8 @@
+
+
+1547475518.618531224  Node Startup
+1547475519.753011803 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547475520.753269940 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547475520.753908023 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.
+1547475521.754262580 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:61(main) [topics: /rosout, /scan] Connecting to laser at 192.168.0.1
+1547475521.754900384 WARN [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:65(main) [topics: /rosout, /scan] Unable to connect, retrying.

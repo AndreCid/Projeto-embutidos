@@ -1,0 +1,268 @@
+[rosmaster.main][INFO] 2019-01-09 09:36:02,723: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-01-09 09:36:02,723: Starting ROS Master Node
+[xmlrpc][INFO] 2019-01-09 09:36:02,724: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-01-09 09:36:02,725: Started XML-RPC server [http://onboardpc:11311/]
+[rosmaster.master][INFO] 2019-01-09 09:36:02,725: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[xmlrpc][INFO] 2019-01-09 09:36:02,725: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-01-09 09:36:02,814: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 09:36:02,817: +PARAM [/roslaunch/uris/host_onboardpc__32793] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 09:36:02,975: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 09:36:02,976: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 09:36:03,022: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:33407/
+[rosmaster.master][INFO] 2019-01-09 09:36:03,023: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:33407/
+[rosmaster.master][INFO] 2019-01-09 09:36:03,027: +PUB [/rosout_agg] /rosout http://onboardpc:33407/
+[rosmaster.master][INFO] 2019-01-09 09:36:03,032: +SUB [/rosout] /rosout http://onboardpc:33407/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,276: +PUB [/rosout] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,277: +SERVICE [/RosAria/get_loggers] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,278: +SERVICE [/RosAria/set_logger_level] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,282: +PUB [/tf] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,290: +PUB [/RosAria/pose] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,291: +PUB [/RosAria/bumper_state] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,292: +PUB [/RosAria/sonar] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,293: +PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,294: +PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,295: +PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,296: +PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,297: +PUB [/RosAria/motors_state] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,298: +SERVICE [/RosAria/enable_motors] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,299: +SERVICE [/RosAria/disable_motors] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,309: -SERVICE [/RosAria/get_loggers] /RosAria rosrpc://onboardpc:36373
+[rosmaster.master][INFO] 2019-01-09 09:36:27,310: -SERVICE [/RosAria/set_logger_level] /RosAria rosrpc://onboardpc:36373
+[rosmaster.master][INFO] 2019-01-09 09:36:27,311: -SERVICE [/RosAria/enable_motors] /RosAria rosrpc://onboardpc:36373
+[rosmaster.master][INFO] 2019-01-09 09:36:27,313: -SERVICE [/RosAria/disable_motors] /RosAria rosrpc://onboardpc:36373
+[rosmaster.master][INFO] 2019-01-09 09:36:27,372: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:41217/']
+[rosmaster.master][INFO] 2019-01-09 09:36:27,377: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:41217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:36:27,479: -PUB [/rosout] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,479: publisherUpdate[/rosout] -> http://onboardpc:33407/ []
+[rosmaster.master][INFO] 2019-01-09 09:36:27,481: publisherUpdate[/rosout] -> http://onboardpc:33407/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:36:27,482: -PUB [/tf] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,484: -PUB [/RosAria/pose] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,485: -PUB [/RosAria/bumper_state] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,486: -PUB [/RosAria/sonar] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,488: -PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,489: -PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,490: -PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,491: -PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:27,492: -PUB [/RosAria/motors_state] /RosAria http://onboardpc:41217/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,377: +PUB [/rosout] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,378: +SERVICE [/RosAria/get_loggers] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,379: +SERVICE [/RosAria/set_logger_level] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,382: +PUB [/tf] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,391: +PUB [/RosAria/pose] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,393: +PUB [/RosAria/bumper_state] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,394: +PUB [/RosAria/sonar] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,396: +PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,397: +PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,398: +PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,399: +PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,399: +PUB [/RosAria/motors_state] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,400: +SERVICE [/RosAria/enable_motors] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,401: +SERVICE [/RosAria/disable_motors] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,413: -SERVICE [/RosAria/get_loggers] /RosAria rosrpc://onboardpc:53293
+[rosmaster.master][INFO] 2019-01-09 09:36:56,414: -SERVICE [/RosAria/set_logger_level] /RosAria rosrpc://onboardpc:53293
+[rosmaster.master][INFO] 2019-01-09 09:36:56,415: -SERVICE [/RosAria/enable_motors] /RosAria rosrpc://onboardpc:53293
+[rosmaster.master][INFO] 2019-01-09 09:36:56,416: -SERVICE [/RosAria/disable_motors] /RosAria rosrpc://onboardpc:53293
+[rosmaster.master][INFO] 2019-01-09 09:36:56,424: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40801/']
+[rosmaster.master][INFO] 2019-01-09 09:36:56,426: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40801/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:36:56,528: -PUB [/rosout] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,530: -PUB [/tf] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,533: -PUB [/RosAria/pose] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,535: -PUB [/RosAria/bumper_state] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,537: publisherUpdate[/rosout] -> http://onboardpc:33407/ []
+[rosmaster.master][INFO] 2019-01-09 09:36:56,537: -PUB [/RosAria/sonar] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,538: publisherUpdate[/rosout] -> http://onboardpc:33407/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:36:56,538: -PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,540: -PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,540: -PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,542: -PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:36:56,543: -PUB [/RosAria/motors_state] /RosAria http://onboardpc:40801/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,272: +PARAM [/RosAria/port] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:14,275: +PUB [/rosout] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,276: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:33063/']
+[rosmaster.master][INFO] 2019-01-09 09:37:14,276: +SERVICE [/RosAria/get_loggers] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,277: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:33063/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:37:14,278: +SERVICE [/RosAria/set_logger_level] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,281: +PUB [/tf] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,290: +PUB [/RosAria/pose] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,292: +PUB [/RosAria/bumper_state] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,293: +PUB [/RosAria/sonar] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,294: +PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,295: +PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,296: +PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,297: +PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,298: +PUB [/RosAria/motors_state] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,299: +SERVICE [/RosAria/enable_motors] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:14,300: +SERVICE [/RosAria/disable_motors] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:15,105: +SERVICE [/RosAria/set_parameters] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:15,106: +PUB [/RosAria/parameter_descriptions] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:15,108: +PUB [/RosAria/parameter_updates] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:15,117: +PARAM [/RosAria/trans_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,118: +PARAM [/RosAria/trans_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,119: +PARAM [/RosAria/lat_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,120: +PARAM [/RosAria/lat_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,121: +PARAM [/RosAria/rot_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,122: +PARAM [/RosAria/rot_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,122: +PARAM [/RosAria/TicksMM] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,123: +PARAM [/RosAria/DriftFactor] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,124: +PARAM [/RosAria/RevCount] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,125: +PARAM [/RosAria/trans_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,126: +PARAM [/RosAria/trans_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,127: +PARAM [/RosAria/lat_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,128: +PARAM [/RosAria/lat_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,129: +PARAM [/RosAria/rot_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,130: +PARAM [/RosAria/rot_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,131: +PARAM [/RosAria/TicksMM] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,132: +PARAM [/RosAria/DriftFactor] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,132: +PARAM [/RosAria/RevCount] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:37:15,138: +SUB [/RosAria/cmd_vel] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,557: -PUB [/rosout] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,558: -PUB [/tf] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,559: -PUB [/RosAria/pose] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,560: -PUB [/RosAria/bumper_state] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,561: -PUB [/RosAria/sonar] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,562: -PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,563: -PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,564: -PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,565: -PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,566: -PUB [/RosAria/motors_state] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,567: -PUB [/RosAria/parameter_descriptions] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,568: -PUB [/RosAria/parameter_updates] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,569: -SUB [/RosAria/cmd_vel] /RosAria http://onboardpc:33063/
+[rosmaster.master][INFO] 2019-01-09 09:37:57,570: -SERVICE [/RosAria/get_loggers] /RosAria rosrpc://onboardpc:55481
+[rosmaster.master][INFO] 2019-01-09 09:37:57,573: publisherUpdate[/rosout] -> http://onboardpc:33407/ []
+[rosmaster.master][INFO] 2019-01-09 09:37:57,574: publisherUpdate[/rosout] -> http://onboardpc:33407/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:37:57,574: -SERVICE [/RosAria/set_logger_level] /RosAria rosrpc://onboardpc:55481
+[rosmaster.master][INFO] 2019-01-09 09:37:57,575: -SERVICE [/RosAria/enable_motors] /RosAria rosrpc://onboardpc:55481
+[rosmaster.master][INFO] 2019-01-09 09:37:57,576: -SERVICE [/RosAria/disable_motors] /RosAria rosrpc://onboardpc:55481
+[rosmaster.master][INFO] 2019-01-09 09:37:57,577: -SERVICE [/RosAria/set_parameters] /RosAria rosrpc://onboardpc:55481
+[rosmaster.master][INFO] 2019-01-09 09:38:07,043: +PUB [/rosout] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,044: +SERVICE [/RosAria/get_loggers] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,045: +SERVICE [/RosAria/set_logger_level] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,047: +PUB [/tf] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,056: +PUB [/RosAria/pose] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,057: +PUB [/RosAria/bumper_state] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,058: +PUB [/RosAria/sonar] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,059: +PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,060: +PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,061: +PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,062: +PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,063: +PUB [/RosAria/motors_state] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,064: +SERVICE [/RosAria/enable_motors] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,065: +SERVICE [/RosAria/disable_motors] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,070: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']
+[rosmaster.master][INFO] 2019-01-09 09:38:07,071: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:38:07,744: +SERVICE [/RosAria/set_parameters] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,745: +PUB [/RosAria/parameter_descriptions] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,747: +PUB [/RosAria/parameter_updates] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:38:07,755: +PARAM [/RosAria/trans_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,756: +PARAM [/RosAria/trans_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,757: +PARAM [/RosAria/lat_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,758: +PARAM [/RosAria/lat_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,759: +PARAM [/RosAria/rot_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,760: +PARAM [/RosAria/rot_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,761: +PARAM [/RosAria/TicksMM] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,762: +PARAM [/RosAria/DriftFactor] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,763: +PARAM [/RosAria/RevCount] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,764: +PARAM [/RosAria/trans_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,765: +PARAM [/RosAria/trans_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,766: +PARAM [/RosAria/lat_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,767: +PARAM [/RosAria/lat_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,767: +PARAM [/RosAria/rot_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,768: +PARAM [/RosAria/rot_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,769: +PARAM [/RosAria/TicksMM] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,770: +PARAM [/RosAria/DriftFactor] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,771: +PARAM [/RosAria/RevCount] by /RosAria
+[rosmaster.master][INFO] 2019-01-09 09:38:07,776: +SUB [/RosAria/cmd_vel] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 09:40:05,004: +PUB [/rosout] /rostopic_3926_1547034004825 http://onboardpc:41515/
+[rosmaster.master][INFO] 2019-01-09 09:40:05,012: +SERVICE [/rostopic_3926_1547034004825/get_loggers] /rostopic_3926_1547034004825 http://onboardpc:41515/
+[rosmaster.master][INFO] 2019-01-09 09:40:05,015: +SERVICE [/rostopic_3926_1547034004825/set_logger_level] /rostopic_3926_1547034004825 http://onboardpc:41515/
+[rosmaster.master][INFO] 2019-01-09 09:40:05,030: +SUB [/RosAria/bumper_state] /rostopic_3926_1547034004825 http://onboardpc:41515/
+[rosmaster.master][INFO] 2019-01-09 09:40:05,042: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:41515/']
+[rosmaster.master][INFO] 2019-01-09 09:40:05,043: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:41515/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:40:41,966: -SUB [/RosAria/bumper_state] /rostopic_3926_1547034004825 http://onboardpc:41515/
+[rosmaster.master][INFO] 2019-01-09 09:40:41,966: -PUB [/rosout] /rostopic_3926_1547034004825 http://onboardpc:41515/
+[rosmaster.master][INFO] 2019-01-09 09:40:41,967: -SERVICE [/rostopic_3926_1547034004825/set_logger_level] /rostopic_3926_1547034004825 rosrpc://onboardpc:39817
+[rosmaster.master][INFO] 2019-01-09 09:40:41,967: -SERVICE [/rostopic_3926_1547034004825/get_loggers] /rostopic_3926_1547034004825 rosrpc://onboardpc:39817
+[rosmaster.master][INFO] 2019-01-09 09:40:41,974: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']
+[rosmaster.master][INFO] 2019-01-09 09:40:41,974: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:40:47,904: +PUB [/rosout] /rostopic_3949_1547034047725 http://onboardpc:33985/
+[rosmaster.master][INFO] 2019-01-09 09:40:47,913: +SERVICE [/rostopic_3949_1547034047725/get_loggers] /rostopic_3949_1547034047725 http://onboardpc:33985/
+[rosmaster.master][INFO] 2019-01-09 09:40:47,915: +SERVICE [/rostopic_3949_1547034047725/set_logger_level] /rostopic_3949_1547034047725 http://onboardpc:33985/
+[rosmaster.master][INFO] 2019-01-09 09:40:47,923: +SUB [/RosAria/bumper_state] /rostopic_3949_1547034047725 http://onboardpc:33985/
+[rosmaster.master][INFO] 2019-01-09 09:40:47,926: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33985/']
+[rosmaster.master][INFO] 2019-01-09 09:40:47,927: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33985/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:41:11,955: -SUB [/RosAria/bumper_state] /rostopic_3949_1547034047725 http://onboardpc:33985/
+[rosmaster.master][INFO] 2019-01-09 09:41:11,956: -PUB [/rosout] /rostopic_3949_1547034047725 http://onboardpc:33985/
+[rosmaster.master][INFO] 2019-01-09 09:41:11,957: -SERVICE [/rostopic_3949_1547034047725/get_loggers] /rostopic_3949_1547034047725 rosrpc://onboardpc:44321
+[rosmaster.master][INFO] 2019-01-09 09:41:11,957: -SERVICE [/rostopic_3949_1547034047725/set_logger_level] /rostopic_3949_1547034047725 rosrpc://onboardpc:44321
+[rosmaster.master][INFO] 2019-01-09 09:41:11,975: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']
+[rosmaster.master][INFO] 2019-01-09 09:41:11,976: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:43:12,071: +PUB [/rosout] /rostopic_3975_1547034191893 http://onboardpc:33803/
+[rosmaster.master][INFO] 2019-01-09 09:43:12,077: +SERVICE [/rostopic_3975_1547034191893/get_loggers] /rostopic_3975_1547034191893 http://onboardpc:33803/
+[rosmaster.master][INFO] 2019-01-09 09:43:12,078: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33803/']
+[rosmaster.master][INFO] 2019-01-09 09:43:12,079: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33803/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:43:12,081: +SERVICE [/rostopic_3975_1547034191893/set_logger_level] /rostopic_3975_1547034191893 http://onboardpc:33803/
+[rosmaster.master][INFO] 2019-01-09 09:43:12,089: +SUB [/RosAria/bumper_state] /rostopic_3975_1547034191893 http://onboardpc:33803/
+[rosmaster.master][INFO] 2019-01-09 09:43:33,760: -SUB [/RosAria/bumper_state] /rostopic_3975_1547034191893 http://onboardpc:33803/
+[rosmaster.master][INFO] 2019-01-09 09:43:33,761: -PUB [/rosout] /rostopic_3975_1547034191893 http://onboardpc:33803/
+[rosmaster.master][INFO] 2019-01-09 09:43:33,761: -SERVICE [/rostopic_3975_1547034191893/get_loggers] /rostopic_3975_1547034191893 rosrpc://onboardpc:42235
+[rosmaster.master][INFO] 2019-01-09 09:43:33,761: -SERVICE [/rostopic_3975_1547034191893/set_logger_level] /rostopic_3975_1547034191893 rosrpc://onboardpc:42235
+[rosmaster.master][INFO] 2019-01-09 09:43:33,763: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']
+[rosmaster.master][INFO] 2019-01-09 09:43:33,765: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:45:06,214: +PUB [/rosout] /rostopic_4001_1547034306035 http://onboardpc:43545/
+[rosmaster.master][INFO] 2019-01-09 09:45:06,221: +SERVICE [/rostopic_4001_1547034306035/get_loggers] /rostopic_4001_1547034306035 http://onboardpc:43545/
+[rosmaster.master][INFO] 2019-01-09 09:45:06,223: +SERVICE [/rostopic_4001_1547034306035/set_logger_level] /rostopic_4001_1547034306035 http://onboardpc:43545/
+[rosmaster.master][INFO] 2019-01-09 09:45:06,233: +SUB [/RosAria/bumper_state] /rostopic_4001_1547034306035 http://onboardpc:43545/
+[rosmaster.master][INFO] 2019-01-09 09:45:06,245: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:43545/']
+[rosmaster.master][INFO] 2019-01-09 09:45:06,246: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:43545/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:45:36,203: -SUB [/RosAria/bumper_state] /rostopic_4001_1547034306035 http://onboardpc:43545/
+[rosmaster.master][INFO] 2019-01-09 09:45:36,204: -PUB [/rosout] /rostopic_4001_1547034306035 http://onboardpc:43545/
+[rosmaster.master][INFO] 2019-01-09 09:45:36,205: -SERVICE [/rostopic_4001_1547034306035/get_loggers] /rostopic_4001_1547034306035 rosrpc://onboardpc:40239
+[rosmaster.master][INFO] 2019-01-09 09:45:36,205: -SERVICE [/rostopic_4001_1547034306035/set_logger_level] /rostopic_4001_1547034306035 rosrpc://onboardpc:40239
+[rosmaster.master][INFO] 2019-01-09 09:45:36,269: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']
+[rosmaster.master][INFO] 2019-01-09 09:45:36,271: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:58:30,828: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-09 09:58:30,831: +PUB [/rosout] /lms1xx http://onboardpc:33049/
+[rosmaster.master][INFO] 2019-01-09 09:58:30,832: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:33049/
+[rosmaster.master][INFO] 2019-01-09 09:58:30,833: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:33049/
+[rosmaster.master][INFO] 2019-01-09 09:58:30,835: +PUB [/scan] /lms1xx http://onboardpc:33049/
+[rosmaster.master][INFO] 2019-01-09 09:58:30,883: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33049/']
+[rosmaster.master][INFO] 2019-01-09 09:58:30,886: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33049/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:59:24,009: +PUB [/rosout] /rostopic_4211_1547035163831 http://onboardpc:37329/
+[rosmaster.master][INFO] 2019-01-09 09:59:24,017: +SERVICE [/rostopic_4211_1547035163831/get_loggers] /rostopic_4211_1547035163831 http://onboardpc:37329/
+[rosmaster.master][INFO] 2019-01-09 09:59:24,019: +SERVICE [/rostopic_4211_1547035163831/set_logger_level] /rostopic_4211_1547035163831 http://onboardpc:37329/
+[rosmaster.master][INFO] 2019-01-09 09:59:24,024: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33049/', 'http://onboardpc:37329/']
+[rosmaster.master][INFO] 2019-01-09 09:59:24,025: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33049/', 'http://onboardpc:37329/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:59:24,066: +SUB [/scan] /rostopic_4211_1547035163831 http://onboardpc:37329/
+[rosmaster.master][INFO] 2019-01-09 09:59:32,250: -SUB [/scan] /rostopic_4211_1547035163831 http://onboardpc:37329/
+[rosmaster.master][INFO] 2019-01-09 09:59:32,250: -PUB [/rosout] /rostopic_4211_1547035163831 http://onboardpc:37329/
+[rosmaster.master][INFO] 2019-01-09 09:59:32,250: -SERVICE [/rostopic_4211_1547035163831/set_logger_level] /rostopic_4211_1547035163831 rosrpc://onboardpc:46663
+[rosmaster.master][INFO] 2019-01-09 09:59:32,250: -SERVICE [/rostopic_4211_1547035163831/get_loggers] /rostopic_4211_1547035163831 rosrpc://onboardpc:46663
+[rosmaster.master][INFO] 2019-01-09 09:59:32,307: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33049/']
+[rosmaster.master][INFO] 2019-01-09 09:59:32,308: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/', 'http://onboardpc:33049/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 09:59:39,198: -PUB [/rosout] /lms1xx http://onboardpc:33049/
+[rosmaster.master][INFO] 2019-01-09 09:59:39,200: -PUB [/scan] /lms1xx http://onboardpc:33049/
+[rosmaster.master][INFO] 2019-01-09 09:59:39,202: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:43155
+[rosmaster.master][INFO] 2019-01-09 09:59:39,203: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:43155
+[rosmaster.master][INFO] 2019-01-09 09:59:39,220: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']
+[rosmaster.master][INFO] 2019-01-09 09:59:39,221: publisherUpdate[/rosout] -> http://onboardpc:33407/ ['http://onboardpc:40355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 10:02:37,361: -PUB [/rosout] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,362: -PUB [/tf] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,363: -PUB [/RosAria/pose] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,364: -PUB [/RosAria/bumper_state] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,365: -PUB [/RosAria/sonar] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,366: -PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,367: -PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,368: -PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,368: -PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,369: -PUB [/RosAria/motors_state] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,370: -PUB [/RosAria/parameter_descriptions] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,371: -PUB [/RosAria/parameter_updates] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,372: -SUB [/RosAria/cmd_vel] /RosAria http://onboardpc:40355/
+[rosmaster.master][INFO] 2019-01-09 10:02:37,373: -SERVICE [/RosAria/get_loggers] /RosAria rosrpc://onboardpc:43461
+[rosmaster.master][INFO] 2019-01-09 10:02:37,374: -SERVICE [/RosAria/set_logger_level] /RosAria rosrpc://onboardpc:43461
+[rosmaster.master][INFO] 2019-01-09 10:02:37,375: -SERVICE [/RosAria/enable_motors] /RosAria rosrpc://onboardpc:43461
+[rosmaster.master][INFO] 2019-01-09 10:02:37,378: -SERVICE [/RosAria/disable_motors] /RosAria rosrpc://onboardpc:43461
+[rosmaster.master][INFO] 2019-01-09 10:02:37,379: -SERVICE [/RosAria/set_parameters] /RosAria rosrpc://onboardpc:43461
+[rosmaster.master][INFO] 2019-01-09 10:02:37,407: publisherUpdate[/rosout] -> http://onboardpc:33407/ []
+[rosmaster.master][INFO] 2019-01-09 10:02:37,408: publisherUpdate[/rosout] -> http://onboardpc:33407/ []: sec=0.00, result=[1, '', 0]

@@ -1,0 +1,8 @@
+prefix=/home/seekurjr/catkin_ws/install
+
+Name: schunk_libm5api
+Description: Description of schunk_libm5api
+Version: 0.6.12
+Cflags: -I/home/seekurjr/catkin_ws/install/include
+Libs: -L/home/seekurjr/catkin_ws/install/lib -lm5api
+Requires: libntcan libpcan

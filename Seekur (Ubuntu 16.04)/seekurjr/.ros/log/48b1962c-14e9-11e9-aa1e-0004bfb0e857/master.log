@@ -1,0 +1,488 @@
+[rosmaster.main][INFO] 2019-01-10 13:06:20,648: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-01-10 13:06:20,648: Starting ROS Master Node
+[xmlrpc][INFO] 2019-01-10 13:06:20,649: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-01-10 13:06:20,649: Started XML-RPC server [http://onboardpc:11311/]
+[xmlrpc][INFO] 2019-01-10 13:06:20,650: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-01-10 13:06:20,650: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[rosmaster.master][INFO] 2019-01-10 13:06:20,737: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-10 13:06:20,739: +PARAM [/roslaunch/uris/host_onboardpc__45787] by /roslaunch
+[rosmaster.master][INFO] 2019-01-10 13:06:20,898: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-10 13:06:20,898: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-10 13:06:20,942: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:46309/
+[rosmaster.master][INFO] 2019-01-10 13:06:20,943: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:46309/
+[rosmaster.master][INFO] 2019-01-10 13:06:20,946: +PUB [/rosout_agg] /rosout http://onboardpc:46309/
+[rosmaster.master][INFO] 2019-01-10 13:06:20,953: +SUB [/rosout] /rosout http://onboardpc:46309/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,710: +PARAM [/RosAria/port] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:27,714: +PUB [/rosout] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,715: +SERVICE [/RosAria/get_loggers] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,716: +SERVICE [/RosAria/set_logger_level] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,719: +PUB [/tf] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,728: +PUB [/RosAria/pose] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,729: +PUB [/RosAria/bumper_state] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,730: +PUB [/RosAria/sonar] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,731: +PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,732: +PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,732: +PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,733: +PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,734: +PUB [/RosAria/motors_state] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,735: +SERVICE [/RosAria/enable_motors] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,736: +SERVICE [/RosAria/disable_motors] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,748: -SERVICE [/RosAria/get_loggers] /RosAria rosrpc://onboardpc:37627
+[rosmaster.master][INFO] 2019-01-10 13:06:27,749: -SERVICE [/RosAria/set_logger_level] /RosAria rosrpc://onboardpc:37627
+[rosmaster.master][INFO] 2019-01-10 13:06:27,750: -SERVICE [/RosAria/enable_motors] /RosAria rosrpc://onboardpc:37627
+[rosmaster.master][INFO] 2019-01-10 13:06:27,751: -SERVICE [/RosAria/disable_motors] /RosAria rosrpc://onboardpc:37627
+[rosmaster.master][INFO] 2019-01-10 13:06:27,762: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:39669/']
+[rosmaster.master][INFO] 2019-01-10 13:06:27,765: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:39669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:06:27,867: -PUB [/rosout] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,870: -PUB [/tf] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,872: -PUB [/RosAria/pose] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,874: -PUB [/RosAria/bumper_state] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,877: -PUB [/RosAria/sonar] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,878: -PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,879: -PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,880: -PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,881: -PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,882: -PUB [/RosAria/motors_state] /RosAria http://onboardpc:39669/
+[rosmaster.master][INFO] 2019-01-10 13:06:27,963: publisherUpdate[/rosout] -> http://onboardpc:46309/ []
+[rosmaster.master][INFO] 2019-01-10 13:06:27,965: publisherUpdate[/rosout] -> http://onboardpc:46309/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:06:30,754: +PARAM [/RosAria/port] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:30,757: +PUB [/rosout] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,758: +SERVICE [/RosAria/get_loggers] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,760: +SERVICE [/RosAria/set_logger_level] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,763: +PUB [/tf] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,770: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/']
+[rosmaster.master][INFO] 2019-01-10 13:06:30,771: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:06:30,772: +PUB [/RosAria/pose] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,773: +PUB [/RosAria/bumper_state] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,774: +PUB [/RosAria/sonar] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,776: +PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,776: +PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,777: +PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,779: +PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,780: +PUB [/RosAria/motors_state] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,781: +SERVICE [/RosAria/enable_motors] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:30,781: +SERVICE [/RosAria/disable_motors] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:31,383: +SERVICE [/RosAria/set_parameters] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:31,384: +PUB [/RosAria/parameter_descriptions] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:31,386: +PUB [/RosAria/parameter_updates] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:06:31,394: +PARAM [/RosAria/trans_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,395: +PARAM [/RosAria/trans_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,396: +PARAM [/RosAria/lat_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,397: +PARAM [/RosAria/lat_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,398: +PARAM [/RosAria/rot_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,399: +PARAM [/RosAria/rot_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,400: +PARAM [/RosAria/TicksMM] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,401: +PARAM [/RosAria/DriftFactor] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,402: +PARAM [/RosAria/RevCount] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,403: +PARAM [/RosAria/trans_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,404: +PARAM [/RosAria/trans_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,405: +PARAM [/RosAria/lat_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,406: +PARAM [/RosAria/lat_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,407: +PARAM [/RosAria/rot_accel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,407: +PARAM [/RosAria/rot_decel] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,408: +PARAM [/RosAria/TicksMM] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,409: +PARAM [/RosAria/DriftFactor] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,410: +PARAM [/RosAria/RevCount] by /RosAria
+[rosmaster.master][INFO] 2019-01-10 13:06:31,415: +SUB [/RosAria/cmd_vel] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 13:08:20,971: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2019-01-10 13:08:20,974: +PUB [/rosout] /lms1xx http://onboardpc:43351/
+[rosmaster.master][INFO] 2019-01-10 13:08:20,975: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:43351/
+[rosmaster.master][INFO] 2019-01-10 13:08:20,976: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:43351/
+[rosmaster.master][INFO] 2019-01-10 13:08:20,978: +PUB [/scan] /lms1xx http://onboardpc:43351/
+[rosmaster.master][INFO] 2019-01-10 13:08:20,990: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:43351/']
+[rosmaster.master][INFO] 2019-01-10 13:08:20,991: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:08:24,801: -PUB [/rosout] /lms1xx http://onboardpc:43351/
+[rosmaster.master][INFO] 2019-01-10 13:08:24,804: -PUB [/scan] /lms1xx http://onboardpc:43351/
+[rosmaster.master][INFO] 2019-01-10 13:08:24,806: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:43761
+[rosmaster.master][INFO] 2019-01-10 13:08:24,807: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:43761
+[rosmaster.master][INFO] 2019-01-10 13:08:24,899: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/']
+[rosmaster.master][INFO] 2019-01-10 13:08:24,901: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:09:11,028: +PUB [/RosAria/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:36117/
+[rosmaster.master][INFO] 2019-01-10 13:09:11,088: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:36117/']
+[rosmaster.master][INFO] 2019-01-10 13:09:11,153: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:36117/']: sec=0.06, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:09:11,204: +PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:36117/
+[rosmaster.master][INFO] 2019-01-10 13:09:11,219: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:36117/
+[rosmaster.master][INFO] 2019-01-10 13:09:11,254: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/']
+[rosmaster.master][INFO] 2019-01-10 13:09:11,268: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:09:11,543: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:36117/
+[rosmaster.master][INFO] 2019-01-10 13:09:43,986: +PUB [/rosout] /rqt_gui_py_node_2522 http://onboardpc:45625/
+[rosmaster.master][INFO] 2019-01-10 13:09:43,994: +SERVICE [/rqt_gui_py_node_2522/get_loggers] /rqt_gui_py_node_2522 http://onboardpc:45625/
+[rosmaster.master][INFO] 2019-01-10 13:09:43,997: +SERVICE [/rqt_gui_py_node_2522/set_logger_level] /rqt_gui_py_node_2522 http://onboardpc:45625/
+[rosmaster.master][INFO] 2019-01-10 13:09:44,029: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/', 'http://onboardpc:45625/']
+[rosmaster.master][INFO] 2019-01-10 13:09:44,042: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/', 'http://onboardpc:45625/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:09:44,047: +SUB [/statistics] /rqt_gui_py_node_2522 http://onboardpc:45625/
+[rosmaster.master][INFO] 2019-01-10 13:17:58,764: -SUB [/statistics] /rqt_gui_py_node_2522 http://onboardpc:45625/
+[rosmaster.master][INFO] 2019-01-10 13:17:58,764: -PUB [/rosout] /rqt_gui_py_node_2522 http://onboardpc:45625/
+[rosmaster.master][INFO] 2019-01-10 13:17:58,764: -SERVICE [/rqt_gui_py_node_2522/get_loggers] /rqt_gui_py_node_2522 rosrpc://onboardpc:46811
+[rosmaster.master][INFO] 2019-01-10 13:17:58,764: -SERVICE [/rqt_gui_py_node_2522/set_logger_level] /rqt_gui_py_node_2522 rosrpc://onboardpc:46811
+[rosmaster.master][INFO] 2019-01-10 13:17:58,850: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/']
+[rosmaster.master][INFO] 2019-01-10 13:17:58,864: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:18:02,360: +PUB [/rosout] /rqt_gui_py_node_2640 http://onboardpc:45217/
+[rosmaster.master][INFO] 2019-01-10 13:18:02,368: +SERVICE [/rqt_gui_py_node_2640/get_loggers] /rqt_gui_py_node_2640 http://onboardpc:45217/
+[rosmaster.master][INFO] 2019-01-10 13:18:02,371: +SERVICE [/rqt_gui_py_node_2640/set_logger_level] /rqt_gui_py_node_2640 http://onboardpc:45217/
+[rosmaster.master][INFO] 2019-01-10 13:18:02,371: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/', 'http://onboardpc:45217/']
+[rosmaster.master][INFO] 2019-01-10 13:18:02,385: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://andre-Inspiron-15-7000-Gaming:36117/', 'http://onboardpc:45217/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:18:02,403: +SUB [/statistics] /rqt_gui_py_node_2640 http://onboardpc:45217/
+[rosmaster.master][INFO] 2019-01-10 13:23:23,251: -PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:36117/
+[rosmaster.master][INFO] 2019-01-10 13:23:23,251: -PUB [/RosAria/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:36117/
+[rosmaster.master][INFO] 2019-01-10 13:23:23,252: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:38683
+[rosmaster.master][INFO] 2019-01-10 13:23:23,252: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:38683
+[rosmaster.master][INFO] 2019-01-10 13:23:23,255: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']
+[rosmaster.master][INFO] 2019-01-10 13:23:23,256: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:23:23,256: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ []
+[rosmaster.master][INFO] 2019-01-10 13:23:23,257: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:23:26,427: +PUB [/RosAria/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:39851/
+[rosmaster.master][INFO] 2019-01-10 13:23:26,454: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:39851/']
+[rosmaster.master][INFO] 2019-01-10 13:23:26,467: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:39851/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:23:26,521: +PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:39851/
+[rosmaster.master][INFO] 2019-01-10 13:23:26,543: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:39851/
+[rosmaster.master][INFO] 2019-01-10 13:23:26,563: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:39851/']
+[rosmaster.master][INFO] 2019-01-10 13:23:26,568: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:39851/
+[rosmaster.master][INFO] 2019-01-10 13:23:26,577: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:39851/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:27:34,095: +SERVICE [/rostopic_2847_1547134053917/get_loggers] /rostopic_2847_1547134053917 http://onboardpc:35613/
+[rosmaster.master][INFO] 2019-01-10 13:27:34,098: +SERVICE [/rostopic_2847_1547134053917/set_logger_level] /rostopic_2847_1547134053917 http://onboardpc:35613/
+[rosmaster.master][INFO] 2019-01-10 13:27:34,100: +PUB [/RosAria/cmd_vel] /rostopic_2847_1547134053917 http://onboardpc:35613/
+[rosmaster.master][INFO] 2019-01-10 13:27:34,104: -PUB [/RosAria/cmd_vel] /rostopic_2847_1547134053917 http://onboardpc:35613/
+[rosmaster.master][INFO] 2019-01-10 13:27:34,104: -SERVICE [/rostopic_2847_1547134053917/set_logger_level] /rostopic_2847_1547134053917 rosrpc://onboardpc:42807
+[rosmaster.master][INFO] 2019-01-10 13:27:34,104: -SERVICE [/rostopic_2847_1547134053917/get_loggers] /rostopic_2847_1547134053917 rosrpc://onboardpc:42807
+[rosmaster.master][INFO] 2019-01-10 13:27:34,150: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:39851/', 'http://onboardpc:35613/']
+[rosmaster.master][INFO] 2019-01-10 13:27:34,164: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:39851/', 'http://onboardpc:35613/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:27:34,165: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:39851/']
+[rosmaster.master][INFO] 2019-01-10 13:27:34,178: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ ['http://andre-Inspiron-15-7000-Gaming:39851/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:28:20,477: -PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:39851/
+[rosmaster.master][INFO] 2019-01-10 13:28:20,478: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']
+[rosmaster.master][INFO] 2019-01-10 13:28:20,478: -PUB [/RosAria/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:39851/
+[rosmaster.master][INFO] 2019-01-10 13:28:20,480: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:33401
+[rosmaster.master][INFO] 2019-01-10 13:28:20,481: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:28:20,481: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:33401
+[rosmaster.master][INFO] 2019-01-10 13:28:20,482: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ []
+[rosmaster.master][INFO] 2019-01-10 13:28:20,484: publisherUpdate[/RosAria/cmd_vel] -> http://onboardpc:42387/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:28:46,073: +PUB [/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:43889/
+[rosmaster.master][INFO] 2019-01-10 13:28:46,139: +PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:43889/
+[rosmaster.master][INFO] 2019-01-10 13:28:46,187: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:43889/']
+[rosmaster.master][INFO] 2019-01-10 13:28:46,194: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:43889/
+[rosmaster.master][INFO] 2019-01-10 13:28:46,200: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:43889/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:28:46,218: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:43889/
+[rosmaster.master][INFO] 2019-01-10 13:30:01,144: +PUB [/rosout] /rqt_gui_py_node_25193 http://andre-Inspiron-15-7000-Gaming:44323/
+[rosmaster.master][INFO] 2019-01-10 13:30:01,174: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:43889/', 'http://andre-Inspiron-15-7000-Gaming:44323/']
+[rosmaster.master][INFO] 2019-01-10 13:30:01,182: +SERVICE [/rqt_gui_py_node_25193/get_loggers] /rqt_gui_py_node_25193 http://andre-Inspiron-15-7000-Gaming:44323/
+[rosmaster.master][INFO] 2019-01-10 13:30:01,196: +SERVICE [/rqt_gui_py_node_25193/set_logger_level] /rqt_gui_py_node_25193 http://andre-Inspiron-15-7000-Gaming:44323/
+[rosmaster.master][INFO] 2019-01-10 13:30:01,199: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:43889/', 'http://andre-Inspiron-15-7000-Gaming:44323/']: sec=0.02, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:30:01,231: +SUB [/statistics] /rqt_gui_py_node_25193 http://andre-Inspiron-15-7000-Gaming:44323/
+[rosmaster.master][INFO] 2019-01-10 13:31:05,813: -PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:43889/
+[rosmaster.master][INFO] 2019-01-10 13:31:05,814: -PUB [/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:43889/
+[rosmaster.master][INFO] 2019-01-10 13:31:05,815: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:45925
+[rosmaster.master][INFO] 2019-01-10 13:31:05,815: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:45925
+[rosmaster.master][INFO] 2019-01-10 13:31:05,823: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/']
+[rosmaster.master][INFO] 2019-01-10 13:31:05,837: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:31:11,545: +PUB [/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:33425/
+[rosmaster.master][INFO] 2019-01-10 13:31:11,842: +PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:33425/
+[rosmaster.master][INFO] 2019-01-10 13:31:11,851: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/', 'http://andre-Inspiron-15-7000-Gaming:33425/']
+[rosmaster.master][INFO] 2019-01-10 13:31:11,876: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/', 'http://andre-Inspiron-15-7000-Gaming:33425/']: sec=0.02, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:31:11,917: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:33425/
+[rosmaster.master][INFO] 2019-01-10 13:31:11,932: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:33425/
+[rosmaster.master][INFO] 2019-01-10 13:31:41,125: +PUB [/rosout] /rostopic_3100_1547134300946 http://onboardpc:42631/
+[rosmaster.master][INFO] 2019-01-10 13:31:41,130: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/', 'http://andre-Inspiron-15-7000-Gaming:33425/', 'http://onboardpc:42631/']
+[rosmaster.master][INFO] 2019-01-10 13:31:41,132: +SERVICE [/rostopic_3100_1547134300946/get_loggers] /rostopic_3100_1547134300946 http://onboardpc:42631/
+[rosmaster.master][INFO] 2019-01-10 13:31:41,134: +SERVICE [/rostopic_3100_1547134300946/set_logger_level] /rostopic_3100_1547134300946 http://onboardpc:42631/
+[rosmaster.master][INFO] 2019-01-10 13:31:41,150: +SUB [/cmd_vel] /rostopic_3100_1547134300946 http://onboardpc:42631/
+[rosmaster.master][INFO] 2019-01-10 13:31:41,159: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/', 'http://andre-Inspiron-15-7000-Gaming:33425/', 'http://onboardpc:42631/']: sec=0.03, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:32:32,283: -PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:33425/
+[rosmaster.master][INFO] 2019-01-10 13:32:32,283: -PUB [/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:33425/
+[rosmaster.master][INFO] 2019-01-10 13:32:32,284: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:45479
+[rosmaster.master][INFO] 2019-01-10 13:32:32,284: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://andre-Inspiron-15-7000-Gaming:45479
+[rosmaster.master][INFO] 2019-01-10 13:32:32,342: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/', 'http://onboardpc:42631/']
+[rosmaster.master][INFO] 2019-01-10 13:32:32,357: publisherUpdate[/cmd_vel] -> http://onboardpc:42631/ []
+[rosmaster.master][INFO] 2019-01-10 13:32:32,361: publisherUpdate[/cmd_vel] -> http://onboardpc:42631/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:32:32,406: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:44323/', 'http://onboardpc:42631/']: sec=0.06, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:36:00,004: -SUB [/statistics] /rqt_gui_py_node_25193 http://andre-Inspiron-15-7000-Gaming:44323/
+[rosmaster.master][INFO] 2019-01-10 13:36:00,004: -PUB [/rosout] /rqt_gui_py_node_25193 http://andre-Inspiron-15-7000-Gaming:44323/
+[rosmaster.master][INFO] 2019-01-10 13:36:00,005: -SERVICE [/rqt_gui_py_node_25193/set_logger_level] /rqt_gui_py_node_25193 rosrpc://andre-Inspiron-15-7000-Gaming:43099
+[rosmaster.master][INFO] 2019-01-10 13:36:00,005: -SERVICE [/rqt_gui_py_node_25193/get_loggers] /rqt_gui_py_node_25193 rosrpc://andre-Inspiron-15-7000-Gaming:43099
+[rosmaster.master][INFO] 2019-01-10 13:36:00,016: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://onboardpc:42631/']
+[rosmaster.master][INFO] 2019-01-10 13:36:00,017: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://onboardpc:42631/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:39:44,741: -SUB [/cmd_vel] /rostopic_3100_1547134300946 http://onboardpc:42631/
+[rosmaster.master][INFO] 2019-01-10 13:39:44,742: -PUB [/rosout] /rostopic_3100_1547134300946 http://onboardpc:42631/
+[rosmaster.master][INFO] 2019-01-10 13:39:44,742: -SERVICE [/rostopic_3100_1547134300946/set_logger_level] /rostopic_3100_1547134300946 rosrpc://onboardpc:34523
+[rosmaster.master][INFO] 2019-01-10 13:39:44,743: -SERVICE [/rostopic_3100_1547134300946/get_loggers] /rostopic_3100_1547134300946 rosrpc://onboardpc:34523
+[rosmaster.master][INFO] 2019-01-10 13:39:44,743: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']
+[rosmaster.master][INFO] 2019-01-10 13:39:44,745: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:42:17,627: +PUB [/cmd_vel] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:37147/
+[rosmaster.master][INFO] 2019-01-10 13:42:17,696: +PUB [/rosout] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:37147/
+[rosmaster.master][INFO] 2019-01-10 13:42:17,711: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:37147/']
+[rosmaster.master][INFO] 2019-01-10 13:42:17,764: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:37147/
+[rosmaster.master][INFO] 2019-01-10 13:42:17,775: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:37147/']: sec=0.06, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:42:17,810: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://andre-Inspiron-15-7000-Gaming:37147/
+[rosmaster.master][INFO] 2019-01-10 13:42:51,383: +PUB [/rosout] /rostopic_3286_1547134971205 http://10.0.126.200:39709/
+[rosmaster.master][INFO] 2019-01-10 13:42:51,388: +SERVICE [/rostopic_3286_1547134971205/get_loggers] /rostopic_3286_1547134971205 http://10.0.126.200:39709/
+[rosmaster.master][INFO] 2019-01-10 13:42:51,390: +SERVICE [/rostopic_3286_1547134971205/set_logger_level] /rostopic_3286_1547134971205 http://10.0.126.200:39709/
+[rosmaster.master][INFO] 2019-01-10 13:42:51,407: +SUB [/cmd_vel] /rostopic_3286_1547134971205 http://10.0.126.200:39709/
+[rosmaster.master][INFO] 2019-01-10 13:42:51,415: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:37147/', 'http://10.0.126.200:39709/']
+[rosmaster.master][INFO] 2019-01-10 13:42:51,428: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:37147/', 'http://10.0.126.200:39709/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 13:47:04,867: +PUB [/cmd_vel] /teleop_twist_keyboard http://0.0.0.0:32947/
+[rosmaster.master][INFO] 2019-01-10 13:47:04,886: publisherUpdate[/cmd_vel] -> http://10.0.126.200:39709/ ['http://0.0.0.0:32947/']
+[rosmaster.master][INFO] 2019-01-10 13:47:04,888: publisherUpdate[/cmd_vel] -> http://10.0.126.200:39709/ ['http://0.0.0.0:32947/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2019-01-10 13:47:04,894: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-01-10 13:47:04,962: +PUB [/rosout] /teleop_twist_keyboard http://0.0.0.0:32947/
+[rosmaster.master][INFO] 2019-01-10 13:47:04,995: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.200:39709/', 'http://0.0.0.0:32947/']
+[rosmaster.master][INFO] 2019-01-10 13:47:04,997: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.200:39709/', 'http://0.0.0.0:32947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:47:05,014: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://0.0.0.0:32947/
+[rosmaster.master][INFO] 2019-01-10 13:47:05,079: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://0.0.0.0:32947/
+[rosmaster.master][INFO] 2019-01-10 13:47:11,800: -SUB [/cmd_vel] /rostopic_3286_1547134971205 http://10.0.126.200:39709/
+[rosmaster.master][INFO] 2019-01-10 13:47:11,801: -PUB [/rosout] /rostopic_3286_1547134971205 http://10.0.126.200:39709/
+[rosmaster.master][INFO] 2019-01-10 13:47:11,801: -SERVICE [/rostopic_3286_1547134971205/set_logger_level] /rostopic_3286_1547134971205 rosrpc://10.0.126.200:44539
+[rosmaster.master][INFO] 2019-01-10 13:47:11,801: -SERVICE [/rostopic_3286_1547134971205/get_loggers] /rostopic_3286_1547134971205 rosrpc://10.0.126.200:44539
+[rosmaster.master][INFO] 2019-01-10 13:47:11,812: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:32947/']
+[rosmaster.master][INFO] 2019-01-10 13:47:11,813: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:32947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:47:15,007: +PUB [/rosout] /rostopic_3322_1547135234829 http://10.0.126.200:35649/
+[rosmaster.master][INFO] 2019-01-10 13:47:15,014: +SERVICE [/rostopic_3322_1547135234829/get_loggers] /rostopic_3322_1547135234829 http://10.0.126.200:35649/
+[rosmaster.master][INFO] 2019-01-10 13:47:15,016: +SERVICE [/rostopic_3322_1547135234829/set_logger_level] /rostopic_3322_1547135234829 http://10.0.126.200:35649/
+[rosmaster.master][INFO] 2019-01-10 13:47:15,019: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:32947/', 'http://10.0.126.200:35649/']
+[rosmaster.master][INFO] 2019-01-10 13:47:15,020: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:32947/', 'http://10.0.126.200:35649/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:47:15,031: +SUB [/cmd_vel] /rostopic_3322_1547135234829 http://10.0.126.200:35649/
+[rosmaster.master][INFO] 2019-01-10 13:48:18,934: -PUB [/rosout] /teleop_twist_keyboard http://0.0.0.0:32947/
+[rosmaster.master][INFO] 2019-01-10 13:48:18,934: -PUB [/cmd_vel] /teleop_twist_keyboard http://0.0.0.0:32947/
+[rosmaster.master][INFO] 2019-01-10 13:48:18,935: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://0.0.0.0:44441
+[rosmaster.master][INFO] 2019-01-10 13:48:18,935: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://0.0.0.0:44441
+[rosmaster.master][INFO] 2019-01-10 13:48:18,953: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.200:35649/']
+[rosmaster.master][INFO] 2019-01-10 13:48:18,954: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.200:35649/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:48:18,955: publisherUpdate[/cmd_vel] -> http://10.0.126.200:35649/ []
+[rosmaster.master][INFO] 2019-01-10 13:48:18,960: publisherUpdate[/cmd_vel] -> http://10.0.126.200:35649/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2019-01-10 13:48:18,961: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-01-10 13:48:25,162: -SUB [/cmd_vel] /rostopic_3322_1547135234829 http://10.0.126.200:35649/
+[rosmaster.master][INFO] 2019-01-10 13:48:25,163: -PUB [/rosout] /rostopic_3322_1547135234829 http://10.0.126.200:35649/
+[rosmaster.master][INFO] 2019-01-10 13:48:25,163: -SERVICE [/rostopic_3322_1547135234829/set_logger_level] /rostopic_3322_1547135234829 rosrpc://10.0.126.200:40623
+[rosmaster.master][INFO] 2019-01-10 13:48:25,164: -SERVICE [/rostopic_3322_1547135234829/get_loggers] /rostopic_3322_1547135234829 rosrpc://10.0.126.200:40623
+[rosmaster.master][INFO] 2019-01-10 13:48:25,174: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']
+[rosmaster.master][INFO] 2019-01-10 13:48:25,175: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:48:31,791: +PUB [/rosout] /rostopic_3343_1547135311613 http://10.0.126.199:46071/
+[rosmaster.master][INFO] 2019-01-10 13:48:31,799: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.199:46071/']
+[rosmaster.master][INFO] 2019-01-10 13:48:31,801: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.199:46071/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:48:31,802: +SERVICE [/rostopic_3343_1547135311613/get_loggers] /rostopic_3343_1547135311613 http://10.0.126.199:46071/
+[rosmaster.master][INFO] 2019-01-10 13:48:31,804: +SERVICE [/rostopic_3343_1547135311613/set_logger_level] /rostopic_3343_1547135311613 http://10.0.126.199:46071/
+[rosmaster.master][INFO] 2019-01-10 13:48:31,820: +SUB [/cmd_vel] /rostopic_3343_1547135311613 http://10.0.126.199:46071/
+[rosmaster.master][INFO] 2019-01-10 13:48:37,163: +PUB [/cmd_vel] /teleop_twist_keyboard http://0.0.0.0:40757/
+[rosmaster.master][INFO] 2019-01-10 13:48:37,199: publisherUpdate[/cmd_vel] -> http://10.0.126.199:46071/ ['http://0.0.0.0:40757/']
+[rosmaster.master][INFO] 2019-01-10 13:48:37,270: +PUB [/rosout] /teleop_twist_keyboard http://0.0.0.0:40757/
+[rosmaster.master][INFO] 2019-01-10 13:48:37,312: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.199:46071/', 'http://0.0.0.0:40757/']
+[rosmaster.master][INFO] 2019-01-10 13:48:37,314: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.199:46071/', 'http://0.0.0.0:40757/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:48:37,340: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://0.0.0.0:40757/
+[rosmaster.master][INFO] 2019-01-10 13:48:37,356: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://0.0.0.0:40757/
+[rosmaster.master][INFO] 2019-01-10 13:48:40,232: publisherUpdate[/cmd_vel] -> http://10.0.126.199:46071/ ['http://0.0.0.0:40757/']: sec=3.03, exception=[Errno 113] No route to host
+[rosmaster.threadpool][ERROR] 2019-01-10 13:48:40,233: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2019-01-10 13:51:53,667: -PUB [/rosout] /teleop_twist_keyboard http://0.0.0.0:40757/
+[rosmaster.master][INFO] 2019-01-10 13:51:53,668: -PUB [/cmd_vel] /teleop_twist_keyboard http://0.0.0.0:40757/
+[rosmaster.master][INFO] 2019-01-10 13:51:53,668: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://0.0.0.0:40005
+[rosmaster.master][INFO] 2019-01-10 13:51:53,669: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://0.0.0.0:40005
+[rosmaster.master][INFO] 2019-01-10 13:51:53,683: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.199:46071/']
+[rosmaster.master][INFO] 2019-01-10 13:51:53,684: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://10.0.126.199:46071/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 13:51:53,684: publisherUpdate[/cmd_vel] -> http://10.0.126.199:46071/ []
+[rosmaster.master][INFO] 2019-01-10 13:52:25,192: publisherUpdate[/cmd_vel] -> http://10.0.126.199:46071/ []: sec=31.51, exception=[Errno 113] No route to host
+[rosmaster.threadpool][ERROR] 2019-01-10 13:52:25,193: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2019-01-10 13:52:35,443: -SUB [/cmd_vel] /rostopic_3343_1547135311613 http://10.0.126.199:46071/
+[rosmaster.master][INFO] 2019-01-10 13:52:35,444: -PUB [/rosout] /rostopic_3343_1547135311613 http://10.0.126.199:46071/
+[rosmaster.master][INFO] 2019-01-10 13:52:35,444: -SERVICE [/rostopic_3343_1547135311613/get_loggers] /rostopic_3343_1547135311613 rosrpc://10.0.126.199:39875
+[rosmaster.master][INFO] 2019-01-10 13:52:35,444: -SERVICE [/rostopic_3343_1547135311613/set_logger_level] /rostopic_3343_1547135311613 rosrpc://10.0.126.199:39875
+[rosmaster.master][INFO] 2019-01-10 13:52:35,491: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']
+[rosmaster.master][INFO] 2019-01-10 13:52:35,493: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 14:08:07,939: +PUB [/cmd_vel] /teleop_twist_keyboard http://0.0.0.0:45747/
+[rosmaster.master][INFO] 2019-01-10 14:08:08,014: +PUB [/rosout] /teleop_twist_keyboard http://0.0.0.0:45747/
+[rosmaster.master][INFO] 2019-01-10 14:08:08,035: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://0.0.0.0:45747/
+[rosmaster.master][INFO] 2019-01-10 14:08:08,051: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/']
+[rosmaster.master][INFO] 2019-01-10 14:08:08,052: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 14:08:08,056: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://0.0.0.0:45747/
+[rosmaster.master][INFO] 2019-01-10 14:08:15,500: +PUB [/rosout] /rostopic_3433_1547136495321 http://10.0.126.199:37255/
+[rosmaster.master][INFO] 2019-01-10 14:08:15,509: +SERVICE [/rostopic_3433_1547136495321/get_loggers] /rostopic_3433_1547136495321 http://10.0.126.199:37255/
+[rosmaster.master][INFO] 2019-01-10 14:08:15,510: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37255/']
+[rosmaster.master][INFO] 2019-01-10 14:08:15,511: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37255/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 14:08:15,512: +SERVICE [/rostopic_3433_1547136495321/set_logger_level] /rostopic_3433_1547136495321 http://10.0.126.199:37255/
+[rosmaster.master][INFO] 2019-01-10 14:08:15,527: +SUB [/cmd_vel] /rostopic_3433_1547136495321 http://10.0.126.199:37255/
+[rosmaster.master][INFO] 2019-01-10 14:08:23,753: -SUB [/cmd_vel] /rostopic_3433_1547136495321 http://10.0.126.199:37255/
+[rosmaster.master][INFO] 2019-01-10 14:08:23,754: -PUB [/rosout] /rostopic_3433_1547136495321 http://10.0.126.199:37255/
+[rosmaster.master][INFO] 2019-01-10 14:08:23,754: -SERVICE [/rostopic_3433_1547136495321/get_loggers] /rostopic_3433_1547136495321 rosrpc://10.0.126.199:42761
+[rosmaster.master][INFO] 2019-01-10 14:08:23,755: -SERVICE [/rostopic_3433_1547136495321/set_logger_level] /rostopic_3433_1547136495321 rosrpc://10.0.126.199:42761
+[rosmaster.master][INFO] 2019-01-10 14:08:23,784: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/']
+[rosmaster.master][INFO] 2019-01-10 14:08:23,786: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 14:08:34,856: +PUB [/rosout] /rostopic_3454_1547136514677 http://10.0.126.199:37511/
+[rosmaster.master][INFO] 2019-01-10 14:08:34,856: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37511/']
+[rosmaster.master][INFO] 2019-01-10 14:08:34,859: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-10 14:08:34,863: +SERVICE [/rostopic_3454_1547136514677/get_loggers] /rostopic_3454_1547136514677 http://10.0.126.199:37511/
+[rosmaster.master][INFO] 2019-01-10 14:08:34,864: +SERVICE [/rostopic_3454_1547136514677/set_logger_level] /rostopic_3454_1547136514677 http://10.0.126.199:37511/
+[rosmaster.master][INFO] 2019-01-10 14:08:34,878: +SUB [/cmd_vel] /rostopic_3454_1547136514677 http://10.0.126.199:37511/
+[rosmaster.master][INFO] 2019-01-10 14:09:09,755: +PUB [/rosout] /rostopic_26364_1547136549606 http://andre-Inspiron-15-7000-Gaming:43253/
+[rosmaster.master][INFO] 2019-01-10 14:09:09,779: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37511/', 'http://andre-Inspiron-15-7000-Gaming:43253/']
+[rosmaster.master][INFO] 2019-01-10 14:09:09,833: +SERVICE [/rostopic_26364_1547136549606/get_loggers] /rostopic_26364_1547136549606 http://andre-Inspiron-15-7000-Gaming:43253/
+[rosmaster.master][INFO] 2019-01-10 14:09:09,843: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:42387/', 'http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37511/', 'http://andre-Inspiron-15-7000-Gaming:43253/']: sec=0.06, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 14:09:10,857: +SERVICE [/rostopic_26364_1547136549606/set_logger_level] /rostopic_26364_1547136549606 http://andre-Inspiron-15-7000-Gaming:43253/
+[rosmaster.master][INFO] 2019-01-10 14:09:11,011: +SUB [/cmd_vel] /rostopic_26364_1547136549606 http://andre-Inspiron-15-7000-Gaming:43253/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,436: -PUB [/rosout] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,437: -PUB [/tf] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,438: -PUB [/RosAria/pose] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,439: -PUB [/RosAria/bumper_state] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,440: -PUB [/RosAria/sonar] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,441: -PUB [/RosAria/sonar_pointcloud2] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,442: -PUB [/RosAria/battery_voltage] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,443: -PUB [/RosAria/battery_recharge_state] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,444: -PUB [/RosAria/battery_state_of_charge] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,445: -PUB [/RosAria/motors_state] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,446: -PUB [/RosAria/parameter_descriptions] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,447: -PUB [/RosAria/parameter_updates] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,448: -SUB [/RosAria/cmd_vel] /RosAria http://onboardpc:42387/
+[rosmaster.master][INFO] 2019-01-10 14:13:55,449: -SERVICE [/RosAria/get_loggers] /RosAria rosrpc://onboardpc:33857
+[rosmaster.master][INFO] 2019-01-10 14:13:55,450: -SERVICE [/RosAria/set_logger_level] /RosAria rosrpc://onboardpc:33857
+[rosmaster.master][INFO] 2019-01-10 14:13:55,451: -SERVICE [/RosAria/enable_motors] /RosAria rosrpc://onboardpc:33857
+[rosmaster.master][INFO] 2019-01-10 14:13:55,452: -SERVICE [/RosAria/disable_motors] /RosAria rosrpc://onboardpc:33857
+[rosmaster.master][INFO] 2019-01-10 14:13:55,452: -SERVICE [/RosAria/set_parameters] /RosAria rosrpc://onboardpc:33857
+[rosmaster.master][INFO] 2019-01-10 14:13:55,465: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37511/', 'http://andre-Inspiron-15-7000-Gaming:43253/']
+[rosmaster.master][INFO] 2019-01-10 14:13:55,478: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://10.0.126.199:37511/', 'http://andre-Inspiron-15-7000-Gaming:43253/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 14:14:10,342: -SUB [/cmd_vel] /rostopic_3454_1547136514677 http://10.0.126.199:37511/
+[rosmaster.master][INFO] 2019-01-10 14:14:10,342: -PUB [/rosout] /rostopic_3454_1547136514677 http://10.0.126.199:37511/
+[rosmaster.master][INFO] 2019-01-10 14:14:10,343: -SERVICE [/rostopic_3454_1547136514677/set_logger_level] /rostopic_3454_1547136514677 rosrpc://10.0.126.199:46105
+[rosmaster.master][INFO] 2019-01-10 14:14:10,343: -SERVICE [/rostopic_3454_1547136514677/get_loggers] /rostopic_3454_1547136514677 rosrpc://10.0.126.199:46105
+[rosmaster.master][INFO] 2019-01-10 14:14:10,409: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://andre-Inspiron-15-7000-Gaming:43253/']
+[rosmaster.master][INFO] 2019-01-10 14:14:10,424: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:45217/', 'http://0.0.0.0:45747/', 'http://andre-Inspiron-15-7000-Gaming:43253/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 14:14:23,869: -PUB [/rosout] /teleop_twist_keyboard http://0.0.0.0:45747/
+[rosmaster.master][INFO] 2019-01-10 14:14:23,870: -PUB [/cmd_vel] /teleop_twist_keyboard http://0.0.0.0:45747/
+[rosmaster.master][INFO] 2019-01-10 14:14:23,870: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://0.0.0.0:36491
+[rosmaster.master][INFO] 2019-01-10 14:14:23,871: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://0.0.0.0:36491
+[rosmaster.master][INFO] 2019-01-10 14:14:23,954: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:43253/']
+[rosmaster.master][INFO] 2019-01-10 14:14:23,958: publisherUpdate[/cmd_vel] -> http://andre-Inspiron-15-7000-Gaming:43253/ []
+[rosmaster.master][INFO] 2019-01-10 14:14:24,012: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://onboardpc:45217/', 'http://andre-Inspiron-15-7000-Gaming:43253/']: sec=0.06, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-01-10 14:14:24,021: publisherUpdate[/cmd_vel] -> http://andre-Inspiron-15-7000-Gaming:43253/ []: sec=0.06, exception=[Errno -2] Name or service not known
+[rosmaster.threadpool][ERROR] 2019-01-10 14:14:24,022: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+[rosmaster.master][INFO] 2019-01-10 14:14:45,801: -SUB [/statistics] /rqt_gui_py_node_2640 http://onboardpc:45217/
+[rosmaster.master][INFO] 2019-01-10 14:14:45,802: -PUB [/rosout] /rqt_gui_py_node_2640 http://onboardpc:45217/
+[rosmaster.master][INFO] 2019-01-10 14:14:45,802: -SERVICE [/rqt_gui_py_node_2640/get_loggers] /rqt_gui_py_node_2640 rosrpc://onboardpc:44997
+[rosmaster.master][INFO] 2019-01-10 14:14:45,802: -SERVICE [/rqt_gui_py_node_2640/set_logger_level] /rqt_gui_py_node_2640 rosrpc://onboardpc:44997
+[rosmaster.master][INFO] 2019-01-10 14:14:45,807: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://andre-Inspiron-15-7000-Gaming:43253/']
+[rosmaster.master][INFO] 2019-01-10 14:14:45,820: publisherUpdate[/rosout] -> http://onboardpc:46309/ ['http://andre-Inspiron-15-7000-Gaming:43253/']: sec=0.01, result=[0, 'Unknown Error', 0]

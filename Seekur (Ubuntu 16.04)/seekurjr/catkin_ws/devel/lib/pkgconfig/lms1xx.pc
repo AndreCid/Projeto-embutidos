@@ -1,0 +1,8 @@
+prefix=/home/seekurjr/catkin_ws/devel
+
+Name: lms1xx
+Description: Description of lms1xx
+Version: 0.1.6
+Cflags: 
+Libs: -L/home/seekurjr/catkin_ws/devel/lib 
+Requires: roscpp

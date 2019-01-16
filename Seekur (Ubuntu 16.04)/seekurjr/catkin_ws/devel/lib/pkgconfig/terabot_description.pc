@@ -1,0 +1,8 @@
+prefix=/home/seekurjr/catkin_ws/devel
+
+Name: terabot_description
+Description: Description of terabot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/seekurjr/catkin_ws/devel/lib 
+Requires: 

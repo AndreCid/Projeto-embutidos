@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2019-01-15 09:54:33,096: init_node, name[/joint_state_publisher], pid[4844]
+[xmlrpc][INFO] 2019-01-15 09:54:33,097: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-01-15 09:54:33,097: Started XML-RPC server [http://10.0.125.32:35049/]
+[rospy.init][INFO] 2019-01-15 09:54:33,097: ROS Slave URI: [http://10.0.125.32:35049/]
+[rospy.impl.masterslave][INFO] 2019-01-15 09:54:33,097: _ready: http://10.0.125.32:35049/
+[xmlrpc][INFO] 2019-01-15 09:54:33,099: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-01-15 09:54:33,099: Registering with master node http://10.0.125.32:11311
+[rospy.init][INFO] 2019-01-15 09:54:33,198: registered with master
+[rospy.rosout][INFO] 2019-01-15 09:54:33,198: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-01-15 09:54:33,205: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-01-15 09:54:33,207: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-01-15 09:54:33,394: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-01-15 09:54:35,914: Centering
+[rospy.internal][INFO] 2019-01-15 09:54:37,403: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.client][INFO] 2019-01-15 10:15:27,289: init_node, name[/joint_state_publisher], pid[5039]
+[xmlrpc][INFO] 2019-01-15 10:15:27,290: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-01-15 10:15:27,290: Started XML-RPC server [http://10.0.125.32:42557/]
+[rospy.init][INFO] 2019-01-15 10:15:27,290: ROS Slave URI: [http://10.0.125.32:42557/]
+[rospy.impl.masterslave][INFO] 2019-01-15 10:15:27,290: _ready: http://10.0.125.32:42557/
+[xmlrpc][INFO] 2019-01-15 10:15:27,292: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-01-15 10:15:27,292: Registering with master node http://10.0.125.32:11311
+[rospy.init][INFO] 2019-01-15 10:15:27,391: registered with master
+[rospy.rosout][INFO] 2019-01-15 10:15:27,392: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-01-15 10:15:27,399: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-01-15 10:15:27,401: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-01-15 10:15:27,674: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-01-15 10:15:28,777: Centering
+[rospy.internal][INFO] 2019-01-15 10:15:29,677: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.client][INFO] 2019-01-15 10:15:52,993: init_node, name[/joint_state_publisher], pid[5241]
+[xmlrpc][INFO] 2019-01-15 10:15:52,994: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-01-15 10:15:52,994: ROS Slave URI: [http://onboardpc:39349/]
+[xmlrpc][INFO] 2019-01-15 10:15:52,994: Started XML-RPC server [http://onboardpc:39349/]
+[rospy.impl.masterslave][INFO] 2019-01-15 10:15:52,995: _ready: http://onboardpc:39349/
+[xmlrpc][INFO] 2019-01-15 10:15:52,995: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-01-15 10:15:52,996: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-01-15 10:15:53,095: registered with master
+[rospy.rosout][INFO] 2019-01-15 10:15:53,095: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-01-15 10:15:53,099: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-01-15 10:15:53,101: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2019-01-15 10:15:53,384: Centering
+[rospy.internal][INFO] 2019-01-15 10:15:53,439: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-01-15 10:15:53,734: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.client][INFO] 2019-01-15 10:37:08,358: init_node, name[/joint_state_publisher], pid[5695]
+[xmlrpc][INFO] 2019-01-15 10:37:08,359: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-01-15 10:37:08,360: ROS Slave URI: [http://onboardpc:37989/]
+[xmlrpc][INFO] 2019-01-15 10:37:08,360: Started XML-RPC server [http://onboardpc:37989/]
+[rospy.impl.masterslave][INFO] 2019-01-15 10:37:08,360: _ready: http://onboardpc:37989/
+[xmlrpc][INFO] 2019-01-15 10:37:08,360: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-01-15 10:37:08,361: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-01-15 10:37:08,460: registered with master
+[rospy.rosout][INFO] 2019-01-15 10:37:08,460: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-01-15 10:37:08,467: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-01-15 10:37:08,471: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2019-01-15 10:37:08,763: Centering
+[rospy.internal][INFO] 2019-01-15 10:37:08,803: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-01-15 10:37:08,945: topic[/joint_states] adding connection to [/robot_state_publisher], count 0

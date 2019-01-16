@@ -1,0 +1,15 @@
+
+
+1543942319.990254710  Node Startup
+1543942375.897143170 ERROR [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:66(main) [topics: /rosout] Initializing CAN device failed. Reason: 
+1543942375.897689598 INFO [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:67(main) [topics: /rosout] Shutting down now.
+1543942400.836236232 ERROR [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:66(main) [topics: /rosout] Initializing CAN device failed. Reason: 
+1543942400.836377867 INFO [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:67(main) [topics: /rosout] Shutting down now.
+1543942514.393252920 ERROR [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:66(main) [topics: /rosout] Initializing CAN device failed. Reason: 
+1543942514.393849353 INFO [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:67(main) [topics: /rosout] Shutting down now.
+1543942547.704115062 ERROR [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:66(main) [topics: /rosout] Initializing CAN device failed. Reason: 
+1543942547.704660093 INFO [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:67(main) [topics: /rosout] Shutting down now.
+1543942603.419158359 ERROR [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:66(main) [topics: /rosout] Initializing CAN device failed. Reason: 
+1543942603.419232948 INFO [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:67(main) [topics: /rosout] Shutting down now.
+1543942812.589379518 ERROR [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:66(main) [topics: /rosout] Initializing CAN device failed. Reason: ?{?J
+1543942812.589533721 INFO [/tmp/binarydeb/ros-kinetic-schunk-canopen-driver-1.0.7/src/MoveToHomeNode.cpp:67(main) [topics: /rosout] Shutting down now.

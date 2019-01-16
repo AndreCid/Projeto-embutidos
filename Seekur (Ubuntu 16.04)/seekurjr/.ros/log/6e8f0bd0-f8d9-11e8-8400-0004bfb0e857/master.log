@@ -1,0 +1,32 @@
+[rosmaster.main][INFO] 2018-12-05 20:02:20,567: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-05 20:02:20,567: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-05 20:02:20,568: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-12-05 20:02:20,569: Started XML-RPC server [http://onboardpc:11311/]
+[xmlrpc][INFO] 2018-12-05 20:02:20,569: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-05 20:02:20,570: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[rosmaster.master][INFO] 2018-12-05 20:02:20,593: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:02:20,595: +PARAM [/roslaunch/uris/host_onboardpc__35043] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:02:20,614: +PARAM [/lms1xx/host] by /lms1xx
+[rosmaster.master][INFO] 2018-12-05 20:02:20,634: +PUB [/rosout] /lms1xx http://onboardpc:40957/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,637: +SERVICE [/lms1xx/get_loggers] /lms1xx http://onboardpc:40957/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,640: +SERVICE [/lms1xx/set_logger_level] /lms1xx http://onboardpc:40957/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,644: +PUB [/scan] /lms1xx http://onboardpc:40957/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,860: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:02:20,861: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 20:02:20,863: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:44573/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,866: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:44573/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,869: +PUB [/rosout_agg] /rosout http://onboardpc:44573/
+[rosmaster.master][INFO] 2018-12-05 20:02:20,875: +SUB [/rosout] /rosout http://onboardpc:44573/
+[rosmaster.master][INFO] 2018-12-05 20:02:24,489: -PUB [/rosout] /lms1xx http://onboardpc:40957/
+[rosmaster.master][INFO] 2018-12-05 20:02:24,500: -PUB [/scan] /lms1xx http://onboardpc:40957/
+[rosmaster.master][INFO] 2018-12-05 20:02:24,501: -SERVICE [/lms1xx/get_loggers] /lms1xx rosrpc://onboardpc:52865
+[rosmaster.master][INFO] 2018-12-05 20:02:24,503: -SERVICE [/lms1xx/set_logger_level] /lms1xx rosrpc://onboardpc:52865
+[rosmaster.master][INFO] 2018-12-05 20:02:24,574: publisherUpdate[/rosout] -> http://onboardpc:44573/ []
+[rosmaster.master][INFO] 2018-12-05 20:02:24,577: publisherUpdate[/rosout] -> http://onboardpc:44573/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 20:02:25,679: -PUB [/rosout_agg] /rosout http://onboardpc:44573/
+[rosmaster.master][INFO] 2018-12-05 20:02:25,680: -SUB [/rosout] /rosout http://onboardpc:44573/
+[rosmaster.master][INFO] 2018-12-05 20:02:25,681: -SERVICE [/rosout/get_loggers] /rosout rosrpc://onboardpc:57773
+[rosmaster.master][INFO] 2018-12-05 20:02:25,682: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://onboardpc:57773
+[rosmaster.main][INFO] 2018-12-05 20:02:25,739: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-12-05 20:02:25,740: stopping master...
+[rospy.core][INFO] 2018-12-05 20:02:25,740: signal_shutdown [atexit]

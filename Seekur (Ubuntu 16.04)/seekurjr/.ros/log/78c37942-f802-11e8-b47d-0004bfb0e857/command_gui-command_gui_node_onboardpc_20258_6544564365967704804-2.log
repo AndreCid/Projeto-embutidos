@@ -1,0 +1,47 @@
+[rospy.client][INFO] 2018-12-04 18:35:16,771: init_node, name[/command_gui/command_gui_node_onboardpc_20258_6544564365967704804], pid[20277]
+[xmlrpc][INFO] 2018-12-04 18:35:16,771: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-04 18:35:16,772: Started XML-RPC server [http://onboardpc:46663/]
+[rospy.impl.masterslave][INFO] 2018-12-04 18:35:16,772: _ready: http://onboardpc:46663/
+[rospy.init][INFO] 2018-12-04 18:35:16,772: ROS Slave URI: [http://onboardpc:46663/]
+[rospy.registration][INFO] 2018-12-04 18:35:16,774: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-04 18:35:16,774: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-04 18:35:16,873: registered with master
+[rospy.rosout][INFO] 2018-12-04 18:35:16,873: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-04 18:35:16,878: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-04 18:35:16,881: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-04 18:35:17,117: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-12-04 18:35:23,158: <<init>> <<arm>>
+[rosout][INFO] 2018-12-04 18:35:30,755: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-04 18:35:30,787: topic[/arm/joint_states] adding connection to [http://onboardpc:35699/], count 0
+[rospy.internal][INFO] 2018-12-04 18:35:30,812: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-04 18:35:30,812: topic[/arm/joint_states] removing connection to http://onboardpc:35699/
+[rospy.internal][INFO] 2018-12-04 18:35:30,853: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/feedback] adding connection to [http://onboardpc:35699/], count 0
+[rospy.internal][INFO] 2018-12-04 18:35:30,856: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/result] adding connection to [http://onboardpc:35699/], count 0
+[rospy.internal][INFO] 2018-12-04 18:35:30,858: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/status] adding connection to [http://onboardpc:35699/], count 0
+[rospy.internal][INFO] 2018-12-04 18:35:31,062: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/cancel] adding connection to [/arm/driver], count 0
+[rospy.internal][INFO] 2018-12-04 18:35:31,063: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/goal] adding connection to [/arm/driver], count 0
+[rosout][INFO] 2018-12-04 18:47:29,081: Move <<arm>> to <<home>>
+[rospy.internal][INFO] 2018-12-04 18:47:29,120: topic[/arm/joint_states] adding connection to [http://onboardpc:35699/], count 0
+[rospy.internal][INFO] 2018-12-04 18:47:29,134: topic impl's ref count is zero, deleting topic /arm/joint_states...
+[rospy.internal][INFO] 2018-12-04 18:47:29,134: topic[/arm/joint_states] removing connection to http://onboardpc:35699/
+[rospy.core][INFO] 2018-12-04 18:48:48,404: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-12-04 18:48:48,419: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/cancel] removing connection to /arm/driver
+[rospy.internal][INFO] 2018-12-04 18:48:48,419: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/goal] removing connection to /arm/driver
+[rospy.internal][INFO] 2018-12-04 18:48:48,420: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-04 18:48:48,420: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/status] removing connection to http://onboardpc:35699/
+[rospy.internal][INFO] 2018-12-04 18:48:48,421: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/result] removing connection to http://onboardpc:35699/
+[rospy.internal][INFO] 2018-12-04 18:48:48,421: topic[/arm/joint_trajectory_controller/follow_joint_trajectory/feedback] removing connection to http://onboardpc:35699/
+[rospy.impl.masterslave][INFO] 2018-12-04 18:48:48,421: signal-2
+[rospy.internal][WARNING] 2018-12-04 18:48:48,423: Unknown error initiating TCP/IP socket to onboardpc:38429 (http://onboardpc:35699/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2018-12-04 18:48:48,423: Unknown error initiating TCP/IP socket to onboardpc:38429 (http://onboardpc:35699/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2018-12-04 18:48:48,554: signal_shutdown [atexit]

@@ -1,0 +1,42 @@
+[rosmaster.main][INFO] 2018-12-04 14:50:25,744: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-04 14:50:25,745: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-04 14:50:25,746: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-12-04 14:50:25,746: Started XML-RPC server [http://onboardpc:11311/]
+[rosmaster.master][INFO] 2018-12-04 14:50:25,746: Master initialized: port[11311], uri[http://onboardpc:11311/]
+[xmlrpc][INFO] 2018-12-04 14:50:25,746: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-04 14:50:25,836: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,838: +PARAM [/roslaunch/uris/host_onboardpc__39139] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,940: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,941: +PARAM [/schunk_canopen_node/can_device_name] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,941: +PARAM [/schunk_canopen_node/frequency] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,941: +PARAM [/schunk_canopen_node/node_mapping_4] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,941: +PARAM [/schunk_canopen_node/node_mapping_7] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,941: +PARAM [/schunk_canopen_node/node_mapping_6] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,942: +PARAM [/schunk_canopen_node/node_mapping_8] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,942: +PARAM [/schunk_canopen_node/chain_arm] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,942: +PARAM [/schunk_canopen_node/ppm_profile_velocity] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,942: +PARAM [/schunk_canopen_node/ppm_profile_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,942: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,942: +PARAM [/schunk_canopen_node/node_mapping_3] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,943: +PARAM [/schunk_canopen_node/ppm_use_relative_targets] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,943: +PARAM [/schunk_canopen_node/node_mapping_5] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:25,943: +PARAM [/schunk_canopen_node/chain_names] by /roslaunch
+[rosmaster.master][INFO] 2018-12-04 14:50:26,013: +SERVICE [/rosout/get_loggers] /rosout http://onboardpc:37703/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,014: +PUB [/rosout] /schunk_canopen_node http://onboardpc:42473/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,015: +SERVICE [/rosout/set_logger_level] /rosout http://onboardpc:37703/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,016: +SERVICE [/schunk_canopen_node/get_loggers] /schunk_canopen_node http://onboardpc:42473/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,018: +SERVICE [/schunk_canopen_node/set_logger_level] /schunk_canopen_node http://onboardpc:42473/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,019: +PUB [/rosout_agg] /rosout http://onboardpc:37703/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,028: +SUB [/rosout] /rosout http://onboardpc:37703/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,039: -SERVICE [/schunk_canopen_node/get_loggers] /schunk_canopen_node rosrpc://onboardpc:53407
+[rosmaster.master][INFO] 2018-12-04 14:50:26,040: -SERVICE [/schunk_canopen_node/set_logger_level] /schunk_canopen_node rosrpc://onboardpc:53407
+[rosmaster.master][INFO] 2018-12-04 14:50:26,115: -PUB [/rosout] /schunk_canopen_node http://onboardpc:42473/
+[rosmaster.master][INFO] 2018-12-04 14:50:26,158: publisherUpdate[/rosout] -> http://onboardpc:37703/ []
+[rosmaster.master][INFO] 2018-12-04 14:50:26,162: publisherUpdate[/rosout] -> http://onboardpc:37703/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-04 14:50:33,878: -PUB [/rosout_agg] /rosout http://onboardpc:37703/
+[rosmaster.master][INFO] 2018-12-04 14:50:33,879: -SUB [/rosout] /rosout http://onboardpc:37703/
+[rosmaster.master][INFO] 2018-12-04 14:50:33,880: -SERVICE [/rosout/get_loggers] /rosout rosrpc://onboardpc:34207
+[rosmaster.master][INFO] 2018-12-04 14:50:33,881: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://onboardpc:34207
+[rosmaster.main][INFO] 2018-12-04 14:50:33,932: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-12-04 14:50:33,932: stopping master...
+[rospy.core][INFO] 2018-12-04 14:50:33,933: signal_shutdown [atexit]

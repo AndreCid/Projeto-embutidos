@@ -1,0 +1,76 @@
+[roslaunch][INFO] 2018-02-21 10:07:13,590: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2018-02-21 10:07:13,596: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2018-02-21 10:07:13,597: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2018-02-21 10:07:13,597: roslaunch env is {'LC_NUMERIC': 'pt_BR.UTF-8', 'ROS_DISTRO': 'kinetic', 'LC_CTYPE': 'pt_BR.UTF-8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.2.10.18 50272 22', 'LOGNAME': 'seekurjr', 'USER': 'seekurjr', 'HOME': '/home/seekurjr', 'LC_PAPER': 'pt_BR.UTF-8', 'PATH': '/home/seekurjr/bin:/home/seekurjr/.local/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'CMAKE_PREFIX_PATH': '/home/seekurjr/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/home/seekurjr/catkin_ws/devel/lib:/opt/ros/kinetic/lib', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'LC_MONETARY': 'pt_BR.UTF-8', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'ROS_LOG_FILENAME': '/home/seekurjr/.ros/log/22293c1a-1708-11e8-8d4b-0004bfb0e857/roslaunch-onboardpc-3614.log', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/seekurjr/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'SHLVL': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PKG_CONFIG_PATH': '/home/seekurjr/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/seekurjr/catkin_ws/src:/opt/ros/kinetic/share', 'XDG_SESSION_ID': '3', '_': '/opt/ros/kinetic/bin/roscore', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'SSH_CONNECTION': '10.2.10.18 50272 10.2.1.141 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/14', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/seekurjr/catkin_ws/devel/share/common-lisp', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'PWD': '/home/seekurjr', 'ROS_MASTER_URI': 'http://localhost:11311', 'LC_NAME': 'pt_BR.UTF-8', 'MAIL': '/var/mail/seekurjr', 'LC_TIME': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2018-02-21 10:07:13,597: starting in server mode
+[roslaunch.parent][INFO] 2018-02-21 10:07:13,598: starting roslaunch parent run
+[roslaunch][INFO] 2018-02-21 10:07:13,598: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2018-02-21 10:07:13,763: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2018-02-21 10:07:13,763: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2018-02-21 10:07:13,763: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2018-02-21 10:07:13,764: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2018-02-21 10:07:13,764: starting parent XML-RPC server
+[roslaunch.server][INFO] 2018-02-21 10:07:13,764: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2018-02-21 10:07:13,764: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2018-02-21 10:07:13,764: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-02-21 10:07:13,765: Started XML-RPC server [http://onboardpc:44025/]
+[xmlrpc][INFO] 2018-02-21 10:07:13,765: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2018-02-21 10:07:13,777: started roslaunch server http://onboardpc:44025/
+[roslaunch.parent][INFO] 2018-02-21 10:07:13,777: ... parent XML-RPC server started
+[roslaunch][INFO] 2018-02-21 10:07:13,778: master.is_running[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:13,781: auto-starting new master
+[roslaunch][INFO] 2018-02-21 10:07:13,782: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2018-02-21 10:07:13,782: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2018-02-21 10:07:13,782: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2018-02-21 10:07:13,782: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2018-02-21 10:07:13,783: process[master]: starting os process
+[roslaunch][INFO] 2018-02-21 10:07:13,783: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/seekurjr/.ros/log/22293c1a-1708-11e8-8d4b-0004bfb0e857/master.log']]
+[roslaunch][INFO] 2018-02-21 10:07:13,783: process[master]: cwd will be [/home/seekurjr/.ros]
+[roslaunch][INFO] 2018-02-21 10:07:13,790: process[master]: started with pid [3625]
+[roslaunch][INFO] 2018-02-21 10:07:13,791: master.is_running[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:13,892: master.is_running[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:13,994: master.is_running[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:14,095: master.is_running[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:14,097: master.is_running[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:14,099: ROS_MASTER_URI=http://onboardpc:11311/
+[roslaunch][INFO] 2018-02-21 10:07:14,101: setting /run_id to 22293c1a-1708-11e8-8d4b-0004bfb0e857
+[roslaunch][INFO] 2018-02-21 10:07:14,104: setting /roslaunch/uris/host_onboardpc__44025' to http://onboardpc:44025/
+[roslaunch][INFO] 2018-02-21 10:07:14,108: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2018-02-21 10:07:14,109: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://onboardpc:11311/]
+[roslaunch][INFO] 2018-02-21 10:07:14,109: process[rosout-1]: env[{'LC_NUMERIC': 'pt_BR.UTF-8', 'ROS_DISTRO': 'kinetic', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.2.10.18 50272 22', 'LOGNAME': 'seekurjr', 'USER': 'seekurjr', 'HOME': '/home/seekurjr', 'LC_PAPER': 'pt_BR.UTF-8', 'PATH': '/home/seekurjr/bin:/home/seekurjr/.local/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'CMAKE_PREFIX_PATH': '/home/seekurjr/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/seekurjr/.ros/log/22293c1a-1708-11e8-8d4b-0004bfb0e857/roslaunch-onboardpc-3614.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'LC_MONETARY': 'pt_BR.UTF-8', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LD_LIBRARY_PATH': '/home/seekurjr/catkin_ws/devel/lib:/opt/ros/kinetic/lib', 'ROS_MASTER_URI': 'http://onboardpc:11311/', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/seekurjr/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PKG_CONFIG_PATH': '/home/seekurjr/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/seekurjr/catkin_ws/src:/opt/ros/kinetic/share', 'XDG_SESSION_ID': '3', '_': '/opt/ros/kinetic/bin/roscore', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/14', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/seekurjr/catkin_ws/devel/share/common-lisp', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'SHLVL': '1', 'PWD': '/home/seekurjr', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'LC_NAME': 'pt_BR.UTF-8', 'MAIL': '/var/mail/seekurjr', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_CONNECTION': '10.2.10.18 50272 10.2.1.141 22'}]
+[roslaunch][INFO] 2018-02-21 10:07:14,166: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2018-02-21 10:07:14,166: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2018-02-21 10:07:14,166: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2018-02-21 10:07:14,166: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2018-02-21 10:07:14,166: ... registered process [rosout-1]
+[roslaunch][INFO] 2018-02-21 10:07:14,166: process[rosout-1]: starting os process
+[roslaunch][INFO] 2018-02-21 10:07:14,167: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/seekurjr/.ros/log/22293c1a-1708-11e8-8d4b-0004bfb0e857/rosout-1.log']]
+[roslaunch][INFO] 2018-02-21 10:07:14,167: process[rosout-1]: cwd will be [/home/seekurjr/.ros]
+[roslaunch][INFO] 2018-02-21 10:07:14,173: process[rosout-1]: started with pid [3638]
+[roslaunch][INFO] 2018-02-21 10:07:14,174: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2018-02-21 10:07:14,174: load_parameters starting ...
+[roslaunch][INFO] 2018-02-21 10:07:14,179: ... load_parameters complete
+[roslaunch][INFO] 2018-02-21 10:07:14,179: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2018-02-21 10:07:14,179: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2018-02-21 10:07:14,179: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 139921466042112)>
+[roslaunch.parent][INFO] 2018-02-21 10:07:14,179: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2018-02-21 10:07:14,180: spin
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,231: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 139921466042112)>
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,255: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139921466042112)>
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,255: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139921466042112)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f42014a9210>, <roslaunch.nodeprocess.LocalProcess object at 0x7f42014a9690>]
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,260: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2018-02-21 10:48:52,261: [rosout-1] killing on exit
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,261: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2018-02-21 10:48:52,261: [master] killing on exit
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,261: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,262: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2018-02-21 10:48:52,290: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2018-02-21 10:48:52,290: runner.stop()
+[roslaunch][INFO] 2018-02-21 10:48:52,290: shutting down processing monitor...
+[roslaunch][INFO] 2018-02-21 10:48:52,290: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 139921466042112)>
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,290: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139921466042112)>
+[roslaunch][INFO] 2018-02-21 10:48:52,291: ... shutting down processing monitor complete
+[roslaunch][INFO] 2018-02-21 10:48:52,291: done
+[roslaunch.pmon][INFO] 2018-02-21 10:48:52,291: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139921466042112)>
+[rospy.core][INFO] 2018-02-21 10:48:52,291: signal_shutdown [atexit]

@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2018-12-05 17:54:49,199: init_node, name[/rosservice_9777_1544039689127], pid[9777]
+[xmlrpc][INFO] 2018-12-05 17:54:49,200: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 17:54:49,200: Started XML-RPC server [http://onboardpc:42985/]
+[rospy.init][INFO] 2018-12-05 17:54:49,200: ROS Slave URI: [http://onboardpc:42985/]
+[rospy.impl.masterslave][INFO] 2018-12-05 17:54:49,200: _ready: http://onboardpc:42985/
+[rospy.registration][INFO] 2018-12-05 17:54:49,201: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-05 17:54:49,201: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-05 17:54:49,301: registered with master
+[rospy.rosout][INFO] 2018-12-05 17:54:49,302: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-05 17:54:49,307: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-05 17:54:49,309: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-05 17:54:49,583: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-05 17:54:55,922: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-12-05 17:54:55,928: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-05 17:54:55,928: signal-2
+[rospy.internal][ERROR] 2018-12-05 17:54:56,093: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rospy.core][INFO] 2018-12-05 17:54:56,094: signal_shutdown [atexit]
