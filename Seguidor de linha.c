@@ -78,10 +78,6 @@ void CalculatePID()
 	I = I + Erro;
 	D = Erro - ErroAntigo;
 	PID = (Ki*I) + (Kd*D) + (Kp*Erro);
-	if(PID<0)
-	{
-	PID = PID *-1;
-	}
 	ErroAntigo = Erro;
 	return;
 }
@@ -92,11 +88,11 @@ void ControlMotor()
 	if(aux == 1)
 	{
 		MotorEsquerdo = 100;
-		MotorDireito  =(int)(PID);
+		MotorDireito  =(int)(abs(PID));
 	}
 	else if(aux == 2)
 	{
-		MotorEsquerdo = (int)(PID);
+		MotorEsquerdo = (int)(abs(PID));
 		MotorDireito  = 100;
 	}
 	else
