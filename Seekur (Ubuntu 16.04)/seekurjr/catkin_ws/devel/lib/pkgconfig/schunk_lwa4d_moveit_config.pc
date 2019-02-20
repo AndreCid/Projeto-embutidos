@@ -1,8 +1,0 @@
-prefix=/home/seekurjr/catkin_ws/devel
-
-Name: schunk_lwa4d_moveit_config
-Description: Description of schunk_lwa4d_moveit_config
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/seekurjr/catkin_ws/devel/lib 
-Requires: 

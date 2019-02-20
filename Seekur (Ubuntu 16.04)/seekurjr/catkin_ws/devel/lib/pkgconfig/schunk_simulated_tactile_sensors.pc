@@ -1,8 +1,0 @@
-prefix=/home/seekurjr/catkin_ws/devel
-
-Name: schunk_simulated_tactile_sensors
-Description: Description of schunk_simulated_tactile_sensors
-Version: 0.6.12
-Cflags: 
-Libs: -L/home/seekurjr/catkin_ws/devel/lib 
-Requires: 

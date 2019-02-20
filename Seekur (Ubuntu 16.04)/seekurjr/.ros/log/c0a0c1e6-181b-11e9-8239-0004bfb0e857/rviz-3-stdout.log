@@ -1,9 +1,0 @@
-[0m[ INFO] [1547487540.604412861]: rviz version 1.12.16[0m
-[0m[ INFO] [1547487540.604474879]: compiled against Qt version 5.5.1[0m
-[0m[ INFO] [1547487540.604495831]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
-[0m[ INFO] [1547487541.008771272]: Stereo is NOT SUPPORTED[0m
-[0m[ INFO] [1547487541.009014595]: OpenGl version: 2.1 (GLSL 1.2).[0m
-[0m[ INFO] [1547487565.061323597]: Setting goal: Frame:base_link, Position(1,498, 0,084, 0,000), Orientation(0,000, 0,000, 0,000, 1,000) = Angle: 0,000
-[0m
-[0m[ INFO] [1547487761.497689050]: Setting goal: Frame:base_link, Position(0,463, -0,210, 0,000), Orientation(0,000, 0,000, -0,646, 0,764) = Angle: -1,404
-[0m

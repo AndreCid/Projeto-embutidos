@@ -1,6 +1,0 @@
-javaExamples/ArnlServer.java
-java/com/mobilerobots/Arnl/*.java
-lib/libArnlJava.so
-java/ArnlJava_wrap.cpp
-java/ArnlJava_wrap.h
-java/Arnl.jar

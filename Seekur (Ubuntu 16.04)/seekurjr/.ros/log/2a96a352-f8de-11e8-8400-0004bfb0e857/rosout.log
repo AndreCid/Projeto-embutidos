@@ -1,5 +1,0 @@
-
-
-1544049373.021323054  Node Startup
-1544049373.538385558 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:83(main) [topics: /rosout, /scan] Connected to laser.
-1544049376.182515494 INFO [/home/seekurjr/catkin_ws/src/LMS1xx/src/LMS1xx_node.cpp:83(main) [topics: /rosout, /scan] Connected to laser.
