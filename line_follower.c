@@ -32,7 +32,7 @@ uint16_t ReadADC(uint8_t ch)//------Funçao para ler um sinal analogico
 	ADMUX|=ch;
 	ADCSRA|=(1<<ADSC);
 	while(!(ADCSRA & (1<<ADIF)));
-	ADCSRA|=(1<<ADIF);
+		ADCSRA|=(1<<ADIF);
 	return(ADC);
 }
 
@@ -58,22 +58,21 @@ void CalculatePID()
 	ValorAtual = Sensores[2] - Sensores[0];
 	// Caso o carrinho esteja fora da faixa de valores, então sera calculado o erro. Caso contrário sera erro nulo.
 	if((ValorAtual>SetPoint2) || (ValorAtual <SetPoint1)){
-	Erro =  0 - ValorAtual;
-	if (Erro<0)
-  	{
-    	aux = 1;
+		Erro =  0 - ValorAtual;
+	if (Erro<0){
+    		aux = 1;
 	}
   	else if(Erro>0){
-    	aux = 2;
+    		aux = 2;
   	}
   	else
   	{
-    	aux = 0;
+    		aux = 0;
   	}
 	}
-    	else
+    		else
     	{
-    	Erro = 0;
+    		Erro = 0;
     	}
 	I = I + Erro;
 	D = Erro - ErroAntigo;
